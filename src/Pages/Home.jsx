@@ -4,6 +4,8 @@ import Marketting from '../Components/Home/Marketting'
 import Categories from '../Components/Home/categories'
 import Details from '../Components/Home/Details'
 import Seo from '../Components/Home/Seo'
+import Review from '../Components/Home/Review'
+import Footer from '../Components/Footer/Footer'
 
 function Home() {
     return (
@@ -13,6 +15,8 @@ function Home() {
          <Categories/>
          <Details/>
          <Seo/>
+         <Review/>
+         <Footer/>
 
 
         
