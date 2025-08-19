@@ -20,6 +20,7 @@ function Details() {
                 direction, we can help you develop a digital strategy that grows
                 your business.
               </p>
+              <button className=" border border-red-400 text-red-400 px-4 py-2 rounded-2xl mt-2 hover:bg-orange-400 hover:text-white font-medium">Buy Discovery</button>
             </div>
           </div>
 

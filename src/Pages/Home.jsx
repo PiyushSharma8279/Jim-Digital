@@ -3,6 +3,7 @@ import Layout from '../Layout/Layout'
 import Marketting from '../Components/Home/Marketting'
 import Categories from '../Components/Home/categories'
 import Details from '../Components/Home/Details'
+import Seo from '../Components/Home/Seo'
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
          <Marketting/>
          <Categories/>
          <Details/>
+         <Seo/>
 
 
         
