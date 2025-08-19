@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../Layout/Layout'
 import Marketting from '../Components/Home/Marketting'
 import Categories from '../Components/Home/categories'
+import Details from '../Components/Home/Details'
 
 function Home() {
     return (
@@ -9,6 +10,7 @@ function Home() {
         <Layout/>
          <Marketting/>
          <Categories/>
+         <Details/>
 
 
         

@@ -13,7 +13,7 @@ function Marketting() {
                         digital solutions tailored to your business goals. Whether you need a
                         powerful web platform, a
                     </p>
-                    <p className=' font-medium text-[15px] px-5'>
+                    <p className=' font-medium text-[15px] px-5 text-center'>
                         mobile app, or an automated business system, our in-house team delivers
                         scalable, secure, and future-ready technology.
                     </p>
