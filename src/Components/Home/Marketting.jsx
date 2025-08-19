@@ -7,7 +7,7 @@ function Marketting() {
             <div className='h-21'></div>
             <div>
                 <div className=' text-center mb-2'>
-                    <h2 className=' text-[32px]'>Turning Ideas into Success Stories.</h2>
+                    <h2 className=' text-[32px] px-5'>Turning Ideas into Success Stories.</h2>
                     <p className='  text-[15px] font-medium px-5'>
                         At Jim-Digital, we do not just build websites and software—we engineer
                         digital solutions tailored to your business goals. Whether you need a
@@ -19,18 +19,18 @@ function Marketting() {
                     </p>
                 </div>
 
-                {/* Background image full width */}
+                
                 <section
                     className="relative w-full bg-cover bg-center flex items-center mb-2"
                     style={{ backgroundImage: `url(${market})` }}
                 >
                     <div className="absolute inset-0"></div>
 
-                    {/* Centered content with max-width */}
+                    
                     <div className="relative z-10 text-white w-full flex justify-center">
                         <div className="max-w-[1250px] w-full px-6 lg:px-10 flex justify-between items-center py-10 max-md:flex-col max-md:gap-6">
 
-                            {/* Left text */}
+                            
                             <div className="w-1/2 max-md:w-full">
                                 <h2 className="text-[32px] md:text-[54px] font-bold mb-4">
                                     Marketing That Delivers Traffic, Leads, and Growth
@@ -43,12 +43,12 @@ function Marketting() {
                                 </p>
                             </div>
 
-                            {/* Right form */}
+                            
                             <div className="max-md:w-full">
                                 <form className="bg-white text-black rounded-lg shadow-lg p-6 flex flex-col gap-3 mx-auto">
                                     <p className="text-lg font-normal">Do you have a project in mind?</p>
 
-                                    {/* Name + Company */}
+                                    
                                     <div className="flex gap-2 py-1 max-md:flex-col">
                                         <input
                                             type="text"
@@ -73,7 +73,7 @@ function Marketting() {
                                         className="border rounded-md px-3 py-2 focus:outline-none text-[14px] w-full"
                                     />
 
-                                    {/* Project type */}
+                                    
                                     <select className="border rounded-md px-3 py-2 focus:outline-none text-gray-500 text-[14px] w-full">
                                         <option>Project Type</option>
                                         <option>Website Design</option>
@@ -86,7 +86,7 @@ function Marketting() {
                                         <option>Others</option>
                                     </select>
 
-                                    {/* Budget + Launch Date */}
+                                 
                                     <div className="flex gap-2 w-full max-md:flex-col">
                                         <div className="w-1/2 max-md:w-full">
                                             <p className="py-2 text-[15px] font-medium">Budget</p>
