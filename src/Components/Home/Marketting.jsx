@@ -7,7 +7,7 @@ function Marketting() {
             <div className='h-21'></div>
             <div>
                 <div className=' text-center mb-2'>
-                    <h2 className=' text-[32px] px-5'>Turning Ideas into Success Stories.</h2>
+                    <h2 className=' text-[32px] px-2'>Turning Ideas into Success Stories.</h2>
                     <p className='  text-[15px] font-medium px-5'>
                         At Jim-Digital, we do not just build websites and software—we engineer
                         digital solutions tailored to your business goals. Whether you need a
