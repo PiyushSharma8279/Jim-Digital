@@ -102,7 +102,7 @@ function AutoSlider() {
       </style>
     </div>
 
-    <div className=" text-center text-4xl font-medium py-6 bg-gray-200">
+    <div className=" text-center text-3xl font-medium py-6 bg-gray-200">
         Still have questions? Call +61 426 443 970 for answers
     </div>
 
