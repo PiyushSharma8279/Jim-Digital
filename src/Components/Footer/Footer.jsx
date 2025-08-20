@@ -1,5 +1,6 @@
 import React from 'react'
 import bgfooter from "../../assets/bg-footer.jpg"
+import Info from './Info'
 
 function Footer() {
     return (
@@ -22,7 +23,7 @@ function Footer() {
             </div>
 
             <section
-                className="relative w-full bg-cover bg-center flex items-center mb-6"
+                className="relative w-full bg-cover bg-center flex items-center"
                 style={{ backgroundImage: `url(${bgfooter})` }}
             >
                 {/* Overlay */}
@@ -90,10 +91,9 @@ function Footer() {
                     </div>
                 </div>
             </section>
+            <Info/>
 
-            <div className="text-center py-6 text-sm">
-                © 2025 Jim-Digital. All Rights Reserved.
-            </div>
+          
         </>
     )
 }
