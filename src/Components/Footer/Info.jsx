@@ -44,12 +44,11 @@ function Info() {
                         <h2 className="underline py-2 text-[20px] font-medium">Get In Touch</h2>
                         <p className="py-1 font-semibold">Location</p>
                         <p className="py-1">
-                            D-9, D-Block, Sector-3, Near Sec-16 Metro Station,
-                            Noida, Landmark: Workshala Spaces, Uttar Pradesh, 201301
+                            Australia Based. Results Driven.
                         </p>
                         <p className="py-1 font-semibold">Contact</p>
-                        <p className="py-1">Phone: + 467676747</p>
-                        <p className="py-1">Mail Us: jim@gmail.com</p>
+                        <p className="py-1">Phone: +61 426 443 970</p>
+                        <p className="py-1">Mail Us: info@jim-digital.com</p>
                     </div>
 
                     {/* Useful Links */}
