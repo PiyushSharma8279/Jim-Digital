@@ -19,7 +19,7 @@ function Seo() {
           <img
             src={wooCommerce}
             alt="WooCommerce"
-            className="rounded-xl shadow-lg w-54 md:w-60 lg:w-90 object-cover"
+            className="rounded-xl shadow-lg w-78 md:w-60 lg:w-90 object-cover"
           />
 
           <div className="absolute  top-0   px-3 py-1 rounded-md">
@@ -43,7 +43,7 @@ function Seo() {
           <img
             src={shopify}
             alt="Shopify"
-            className="rounded-xl shadow-lg w-54 md:w-60 lg:w-90 object-cover"
+            className="rounded-xl shadow-lg w-78 md:w-60 lg:w-90 object-cover"
           />
 
 
@@ -68,7 +68,7 @@ function Seo() {
           <img
             src={domain}
             alt="Domain"
-            className="rounded-xl shadow-lg w-54 md:w-60 lg:w-90 object-cover"
+            className="rounded-xl shadow-lg w-78 md:w-60 lg:w-90 object-cover"
           />
 
 
@@ -95,7 +95,7 @@ function Seo() {
           <img
             src={AWS}
             alt="WooCommerce"
-            className="rounded-xl shadow-lg w-54 md:w-60 lg:w-65 object-cover"
+            className="rounded-xl shadow-lg w-78 md:w-60 lg:w-65 object-cover"
           />
 
           <div className="absolute  top-0   px-3 py-1 rounded-md">
@@ -119,7 +119,7 @@ function Seo() {
           <img
             src={portal}
             alt="Shopify"
-            className="rounded-xl shadow-lg w-54 md:w-68 lg:w-66 object-cover"
+            className="rounded-xl shadow-lg w-78 md:w-68 lg:w-66 object-cover"
           />
 
 
@@ -144,7 +144,7 @@ function Seo() {
           <img
             src={website}
             alt="Domain"
-            className="rounded-xl shadow-lg w-54 md:w-60 lg:w-66 object-cover"
+            className="rounded-xl shadow-lg w-78 md:w-60 lg:w-66 object-cover"
           />
 
 
@@ -167,7 +167,7 @@ function Seo() {
           <img
             src={wordPress}
             alt="Domain"
-            className="rounded-xl shadow-lg w-54 md:w-60 lg:w-66 object-cover"
+            className="rounded-xl shadow-lg w-78 md:w-60 lg:w-66 object-cover"
           />
 
 
@@ -195,7 +195,7 @@ function Seo() {
           <img
             src={hosting}
             alt="WooCommerce"
-            className="rounded-xl shadow-lg w-54 md:w-60 lg:w-90 object-cover"
+            className="rounded-xl shadow-lg w-78 md:w-60 lg:w-90 object-cover"
           />
 
           <div className="absolute  top-0   px-3 py-1 rounded-md">
@@ -219,7 +219,7 @@ function Seo() {
           <img
             src={business}
             alt="Shopify"
-            className="rounded-xl shadow-lg w-54 md:w-60 lg:w-90 object-cover"
+            className="rounded-xl shadow-lg w-78 md:w-60 lg:w-90 object-cover"
           />
 
 
@@ -244,7 +244,7 @@ function Seo() {
           <img
             src={ssl}
             alt="Domain"
-            className="rounded-xl shadow-lg w-54 md:w-60 lg:w-90 object-cover"
+            className="rounded-xl shadow-lg w-78 md:w-60 lg:w-90 object-cover"
           />
 
 
