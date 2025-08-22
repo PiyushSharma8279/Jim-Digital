@@ -31,7 +31,8 @@ function Categories() {
               <p>UX</p>
               <p>Design</p>
             </div>
-            <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white">
+            <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white"
+              onClick={()=> navigate("/mobile-dev")} >
               <p>Mobile</p>
               <p>App</p>
             </div>
