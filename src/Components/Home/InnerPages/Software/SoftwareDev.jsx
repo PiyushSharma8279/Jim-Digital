@@ -14,7 +14,8 @@ function SoftwareDev() {
                 reset: true,
                 duration: 1000,
                 distance: '60px',
-                scale: 0.85
+                scale: 0.85,
+                  reset: false,
             });
     
             scroll.reveal('.development', { delay: 400, origin: 'left' });

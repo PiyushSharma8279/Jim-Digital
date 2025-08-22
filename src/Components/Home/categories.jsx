@@ -1,6 +1,5 @@
 import React from 'react'
 import jobboard from "../../assets/job-board.png"
-import WebsiteDev from "./InnerPages/WebsiteDev/WebsiteDev";
 import { useNavigate } from "react-router-dom";
 
 function Categories() {

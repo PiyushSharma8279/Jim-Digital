@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+import { useNavigate } from 'react-router-dom'
 function Info() {
+    const navigate = useNavigate();
     return (
         <>
             <div className="bg-[#0b0f28] text-white">
@@ -29,12 +31,12 @@ function Info() {
                     <div>
                         <h2 className="underline decoration-2 underline-offset-8  py-2 text-[20px] font-medium">Our Services</h2>
                         <div className="space-y-2">
-                            <div><a href="">Web Development</a></div>
-                            <div><a href="">Mobile App Development</a></div>
-                            <div><a href="">Dedicated Resources</a></div>
-                            <div><a href="">WordPress Development</a></div>
-                            <div><a href="">Digital Marketing</a></div>
-                            <div> <a href="">SEO Service</a></div>
+                            <div className=' cursor-pointer'><a onClick={()=> navigate("/website-dev")}>Web Development</a></div>
+                            <div className=' cursor-pointer'><a onClick={()=> navigate("/mobile-dev")}>Mobile App Development</a></div>
+                            <div className=' cursor-pointer'><a href="">Dedicated Resources</a></div>
+                            <div className=' cursor-pointer'><a href="">WordPress Development</a></div>
+                            <div className=' cursor-pointer'><a onClick={()=> navigate("/digital-dev")}>Digital Marketing</a></div>
+                            <div className=' cursor-pointer'> <a href="">SEO Service</a></div>
 
                         </div>
                     </div>
