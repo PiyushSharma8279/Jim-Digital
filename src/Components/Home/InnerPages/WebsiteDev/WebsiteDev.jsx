@@ -11,7 +11,7 @@ function WebsiteDev() {
     <>
       <Header />
 
-      {/* Hero Section */}
+      
       <main className="pt-24">
         <div className="text-white bg-[#0b0f28] text-center py-16 px-4">
           <p className="text-3xl md:text-5xl font-medium">Web Development</p>
@@ -23,7 +23,7 @@ function WebsiteDev() {
         </div>
       </main>
 
-      {/* Section 1 */}
+      
       <div className="text-center py-16 px-6">
         <h2 className="text-2xl md:text-4xl py-4 font-medium">
           Web Development Company in Noida, Delhi | India
@@ -34,7 +34,7 @@ function WebsiteDev() {
         </p>
       </div>
 
-      {/* Section 2 */}
+      
       <div className="text-center px-6">
         <h2 className="text-2xl md:text-4xl py-4 font-medium">
           Jim-Digital is the Best Website Development Company in India
@@ -51,7 +51,7 @@ function WebsiteDev() {
         </p>
       </div>
 
-      {/* Section 3 - Image + Text */}
+      
       <div className="flex justify-center">
         <div className="flex flex-col md:flex-row w-[90%] py-20  gap-10">
           <div className="w-full md:w-1/2">
@@ -76,7 +76,7 @@ function WebsiteDev() {
         </div>
       </div>
 
-      {/* Section 4 - Reversed */}
+      
       <div className="flex justify-center">
         <div className="flex flex-col md:flex-row-reverse w-[90%] py-20 items-center gap-10">
           <div className="w-full md:w-1/2">
@@ -112,7 +112,7 @@ function WebsiteDev() {
         </div>
       </div>
 
-      {/* Section 5 */}
+      
       <div className="flex justify-center">
         <div className="flex flex-col md:flex-row w-[90%] py-20 items-center gap-10">
           <div className="w-full md:w-1/2">
@@ -138,7 +138,7 @@ function WebsiteDev() {
         </div>
       </div>
 
-      {/* Why Us Section */}
+      
       <div className="text-white bg-[#0b0f28] text-center py-16 px-6">
         <p className="text-3xl md:text-5xl font-medium">
           Why Jim-Digital Solution?
@@ -175,7 +175,7 @@ function WebsiteDev() {
         </div>
       </div>
 
-      {/* Industry Section */}
+      
       <div className="text-center py-16 px-6">
         <h2 className="text-2xl md:text-4xl py-4 font-medium">
           Industry We Serve
@@ -187,7 +187,7 @@ function WebsiteDev() {
         </p>
       </div>
 
-      {/* Industry Grid */}
+      
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-6">
         {[
           { img: "movie.png", text: "Media Entertainment" },
@@ -213,7 +213,7 @@ function WebsiteDev() {
         ))}
       </div>
 
-      {/* Hire Section */}
+      
       <div className="flex justify-center">
         <div className="flex flex-col md:flex-row-reverse w-[90%] py-20 items-center gap-10">
           <div className="w-full md:w-1/2">
