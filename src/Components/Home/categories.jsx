@@ -23,11 +23,12 @@ function Categories() {
 
           
           <div className="grid grid-cols-2 max-md:grid-cols-1 gap-4 md:gap-6 text-center font-medium my-8">
-            <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white">
+            <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white"
+               onClick={()=> navigate("/software-dev")}>
               <p>Software</p>
               <p>Development</p>
             </div>
-            <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white">
+            <div onClick={()=> navigate("/ux-dev")} className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white">
               <p>UX</p>
               <p>Design</p>
             </div>
@@ -45,7 +46,8 @@ function Categories() {
               <p>Video</p>
               <p>Productions</p>
             </div>
-            <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white">
+            <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white"
+              onClick={() => navigate("/digital-dev")}>
               <p>Digital</p>
               <p>Marketing</p>
             </div>
