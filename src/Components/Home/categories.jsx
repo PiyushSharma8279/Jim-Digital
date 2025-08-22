@@ -41,9 +41,10 @@ function Categories() {
               <p>Web</p>
               <p>Development</p>
             </div>
-            <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white">
-              <p>Video</p>
-              <p>Productions</p>
+            <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white"
+            onClick={()=> navigate('/seo-dev')}>
+              <p>SEO</p>
+              <p>Service</p>
             </div>
             <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white"
               onClick={() => navigate("/digital-dev")}>

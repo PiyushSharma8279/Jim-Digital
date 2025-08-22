@@ -4,15 +4,15 @@ import Info from "../../../Footer/Info";
 import { FaAndroid, FaApple, FaHSquare } from "react-icons/fa";
 
 function UxDesign() {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-      }, []);
-    return (
-        <>
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <>
 
-         <Header />
+      <Header />
       <main className="pt-24">
-        
+
         <div className="text-white bg-[#0b0f28] text-center py-16 px-4">
           <p className="text-3xl md:text-5xl font-medium">
             UX Design
@@ -25,7 +25,7 @@ function UxDesign() {
         </div>
       </main>
 
-      
+
       <div className="text-center py-16 px-6">
         <h2 className="text-2xl md:text-4xl py-4 font-medium">
           Best UX Design Company in Noida, Delhi | India -
@@ -33,7 +33,7 @@ function UxDesign() {
         </h2>
       </div>
 
-      
+
       <div className="flex justify-center">
         <div className="flex flex-col md:flex-row w-[90%] py-20 gap-10">
           <div className="w-full md:w-1/2 flex justify-center">
@@ -72,7 +72,7 @@ function UxDesign() {
         </div>
       </div>
 
-      
+
       <div className="text-white bg-[#0b0f28] text-center py-20 px-4">
         <p className="text-3xl md:text-5xl font-medium">
           Dynamic Customization of mobile app
@@ -83,7 +83,7 @@ function UxDesign() {
         </p>
       </div>
 
-      
+
       <div className="text-center py-16 px-6">
         <h2 className="text-2xl md:text-4xl py-4 font-medium">
           We Build Apps For Every Platform
@@ -138,7 +138,7 @@ function UxDesign() {
         </div>
       </div>
 
-      
+
       <div className="text-white bg-black text-center py-16 px-6">
         <p className="text-3xl md:text-5xl font-medium">Let's Talk</p>
 
@@ -177,8 +177,8 @@ function UxDesign() {
       </div>
 
       <Info />
-        </>
-    )
+    </>
+  )
 }
 
 export default UxDesign

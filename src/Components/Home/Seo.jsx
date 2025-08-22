@@ -34,7 +34,7 @@ function Seo() {
               WooCommerce
             </p>
             <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
-            <button className=' border border-black px-8 py-1 mt-2 rounded-2xl text-xl font-medium'>Read More</button>
+            
           </div>
         </div>
 
@@ -59,7 +59,7 @@ function Seo() {
               Shopify Website
             </p>
             <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
-            <button className=' border border-black px-8 py-1 mt-2 rounded-2xl text-xl font-medium'>Read More</button>
+            
           </div>
         </div>
 
@@ -84,7 +84,7 @@ function Seo() {
               Domain
             </p>
             <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
-            <button className=' border border-black px-8 py-1 mt-2 rounded-2xl text-xl font-medium'>Read More</button>
+            
           </div>
         </div>
       </div>
@@ -110,7 +110,7 @@ function Seo() {
               WooCommerce
             </p>
             <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
-            <button className=' border border-black px-8 py-1 mt-2 rounded-2xl text-xl font-medium'>Read More</button>
+            
           </div>
         </div>
 
@@ -135,7 +135,7 @@ function Seo() {
               Shopify Website
             </p>
             <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
-            <button className=' border border-black px-8 py-1 mt-2 rounded-2xl text-xl font-medium'>Read More</button>
+            
           </div>
         </div>
 
@@ -160,7 +160,7 @@ function Seo() {
               Domain
             </p>
             <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
-            <button className=' border border-black px-8 py-1 mt-2 rounded-2xl text-xl font-medium'>Read More</button>
+            
           </div>
         </div>
          <div className="relative group">
@@ -183,7 +183,7 @@ function Seo() {
               Domain
             </p>
             <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
-            <button className=' border border-black px-8 py-1 mt-2 rounded-2xl text-xl font-medium'>Read More</button>
+            
           </div>
         </div>
       </div>
@@ -210,7 +210,7 @@ function Seo() {
               Hosting
             </p>
             <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
-            <button className=' border border-black px-8 py-1 mt-2 rounded-2xl text-xl font-medium'>Read More</button>
+            
           </div>
         </div>
 
@@ -235,7 +235,7 @@ function Seo() {
               Business email
             </p>
             <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
-            <button className=' border border-black px-8 py-1 mt-2 rounded-2xl text-xl font-medium'>Read More</button>
+            
           </div>
         </div>
 
@@ -260,7 +260,7 @@ function Seo() {
               SSL Certificate
             </p>
             <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
-            <button className=' border border-black px-8 py-1 mt-2 rounded-2xl text-xl font-medium'>Read More</button>
+            
           </div>
         </div>
       </div>
