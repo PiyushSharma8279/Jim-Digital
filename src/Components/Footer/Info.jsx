@@ -55,7 +55,6 @@ function Info() {
           <div className="space-y-2 flex flex-col">
             <a onClick={()=> navigate('/about')} className="hover:text-amber-400 transition cursor-pointer">Company</a>
             <a onClick={()=> navigate('/portfolio')} className="hover:text-amber-400 transition cursor-pointer">Portfolio</a>
-            <a href="#" className="hover:text-amber-400 transition cursor-pointer">Dedicated Resources</a>
             <a onClick={()=> navigate('/blog')} className="hover:text-amber-400 transition cursor-pointer">Blog</a>
             <a onClick={()=> navigate('/career')} className="hover:text-amber-400 transition cursor-pointer">Career</a>
             <a onClick={()=> navigate('/contact')} className="hover:text-amber-400 transition cursor-pointer">Contact Us</a>
