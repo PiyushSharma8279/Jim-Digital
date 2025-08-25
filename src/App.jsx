@@ -12,6 +12,11 @@ import SeoDev from './Components/Home/InnerPages/SEO/SeoDev'
 import AboutUs from './Components/UseFullLinks/Company/AboutUs'
 import Portfolio from './Components/UseFullLinks/Portfolio/Portfolio'
 import Contact from './Components/UseFullLinks/ContactUs/Contact'
+import Career from './Components/UseFullLinks/Career/Career'
+import Blog from './Components/UseFullLinks/Blog/Blog'
+import FormPage from './Components/Home/Modals/WebDevForm'
+import DesignForm from './Components/Home/Modals/WebDesignForm'
+import Customform from './Components/Home/Modals/Customform'
 
 function App() {
   return (
@@ -29,7 +34,11 @@ function App() {
            <Route path='/about' element={<AboutUs/>}/>
            <Route path='/portfolio' element={<Portfolio/>}/>
            <Route path='/contact' element={<Contact/>}/>
-
+           <Route path='/career' element={<Career/>}/>
+           <Route path='/blog' element={<Blog/>}/>
+           <Route path="/form/:category" element={<FormPage />} />
+           <Route path="/design/:category" element={<DesignForm />} />
+           <Route path="/custom/:category" element={<Customform />} />
 
 
 

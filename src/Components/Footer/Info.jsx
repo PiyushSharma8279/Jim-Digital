@@ -9,7 +9,7 @@ function Info() {
       <div className="max-w-[1250px] mx-auto px-6 py-12 
                       grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
-        {/* About */}
+        
         <div>
           <h2 className="underline decoration-2 underline-offset-8 mb-4 text-[20px] font-medium">About</h2>
           <p className="leading-relaxed">
@@ -56,8 +56,8 @@ function Info() {
             <a onClick={()=> navigate('/about')} className="hover:text-amber-400 transition cursor-pointer">Company</a>
             <a onClick={()=> navigate('/portfolio')} className="hover:text-amber-400 transition cursor-pointer">Portfolio</a>
             <a href="#" className="hover:text-amber-400 transition cursor-pointer">Dedicated Resources</a>
-            <a href="#" className="hover:text-amber-400 transition cursor-pointer">Blog</a>
-            <a href="#" className="hover:text-amber-400 transition cursor-pointer">Career</a>
+            <a onClick={()=> navigate('/blog')} className="hover:text-amber-400 transition cursor-pointer">Blog</a>
+            <a onClick={()=> navigate('/career')} className="hover:text-amber-400 transition cursor-pointer">Career</a>
             <a onClick={()=> navigate('/contact')} className="hover:text-amber-400 transition cursor-pointer">Contact Us</a>
           </div>
         </div>

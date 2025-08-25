@@ -11,7 +11,10 @@ function Header() {
     { name: "About Us", path: "/about" },
     { name: "Portfolio", path: "/portfolio" },
     { name: "Our Product", path: "/product" },
+    { name: "Blog", path: "/blog" },
     { name: "Contact Us", path: "/contact" },
+    
+
   ];
 
   return (
