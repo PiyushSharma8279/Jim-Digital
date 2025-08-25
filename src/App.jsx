@@ -10,6 +10,8 @@ import WordPress from './Components/Home/InnerPages/WordPressDev/WordPress'
 
 import SeoDev from './Components/Home/InnerPages/SEO/SeoDev'
 import AboutUs from './Components/UseFullLinks/Company/AboutUs'
+import Portfolio from './Components/UseFullLinks/Portfolio/Portfolio'
+import Contact from './Components/UseFullLinks/ContactUs/Contact'
 
 function App() {
   return (
@@ -25,6 +27,9 @@ function App() {
            <Route path='/wordpress-dev' element={<WordPress/>}/>
            <Route path='/seo-dev' element={<SeoDev/>}/>
            <Route path='/about' element={<AboutUs/>}/>
+           <Route path='/portfolio' element={<Portfolio/>}/>
+           <Route path='/contact' element={<Contact/>}/>
+
 
 
 

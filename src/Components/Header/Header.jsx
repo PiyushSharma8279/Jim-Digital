@@ -10,7 +10,6 @@ function Header() {
   const categories = [
     { name: "About Us", path: "/about" },
     { name: "Portfolio", path: "/portfolio" },
-    { name: "Our Project", path: "/project" },
     { name: "Our Product", path: "/product" },
     { name: "Contact Us", path: "/contact" },
   ];

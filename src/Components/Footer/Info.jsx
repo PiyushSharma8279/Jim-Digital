@@ -54,11 +54,11 @@ function Info() {
           <h2 className="underline decoration-2 underline-offset-8 mb-4 text-[20px] font-medium">Useful Links</h2>
           <div className="space-y-2 flex flex-col">
             <a onClick={()=> navigate('/about')} className="hover:text-amber-400 transition cursor-pointer">Company</a>
-            <a href="#" className="hover:text-amber-400 transition">Portfolio</a>
-            <a href="#" className="hover:text-amber-400 transition">Dedicated Resources</a>
-            <a href="#" className="hover:text-amber-400 transition">Blog</a>
-            <a href="#" className="hover:text-amber-400 transition">Career</a>
-            <a href="#" className="hover:text-amber-400 transition">Contact Us</a>
+            <a onClick={()=> navigate('/portfolio')} className="hover:text-amber-400 transition cursor-pointer">Portfolio</a>
+            <a href="#" className="hover:text-amber-400 transition cursor-pointer">Dedicated Resources</a>
+            <a href="#" className="hover:text-amber-400 transition cursor-pointer">Blog</a>
+            <a href="#" className="hover:text-amber-400 transition cursor-pointer">Career</a>
+            <a onClick={()=> navigate('/contact')} className="hover:text-amber-400 transition cursor-pointer">Contact Us</a>
           </div>
         </div>
       </div>

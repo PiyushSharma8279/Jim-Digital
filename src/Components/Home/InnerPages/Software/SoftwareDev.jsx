@@ -32,7 +32,7 @@ function SoftwareDev() {
          <Header />
 
 
-            <main className="pt-24">
+            <main className="pt-20">
                 <div className="text-white bg-[#0b0f28] text-center py-16 px-4">
                     <p className="text-3xl md:text-5xl font-medium">Software-development</p>
                     <p className="flex items-center justify-center gap-2 text-sm mt-4">
