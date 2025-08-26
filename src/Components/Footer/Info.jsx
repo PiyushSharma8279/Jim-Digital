@@ -30,13 +30,22 @@ function Info() {
                 className="cursor-pointer hover:text-amber-400 transition"
               />
             </a>
-            <FaWhatsapp size={22} className="cursor-pointer hover:text-amber-400 transition" />
+            <a
+              href="https://wa.me/918445561749"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp
+                size={22}
+                className="cursor-pointer hover:text-amber-400 transition"
+              />
+            </a>
             <a
               href="https://www.linkedin.com/company/jimdigital/"
               target="_blank"
               rel="noopener noreferrer"
             >
-            <FaLinkedin size={22} className="cursor-pointer hover:text-amber-400 transition" />
+              <FaLinkedin size={22} className="cursor-pointer hover:text-amber-400 transition" />
             </a>
           </div>
         </div>
