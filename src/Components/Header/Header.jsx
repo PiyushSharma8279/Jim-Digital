@@ -68,12 +68,12 @@ function Header() {
         {/* CTA: Phone Number (Icon for mobile, number for desktop) */}
         <a
           href="tel:+918445561749"
-          className="flex items-center gap-2 text-blue-600 hover:text-amber-500 transition font-semibold"
+          className="flex items-center gap-2 text-white bg-orange-500 py-1 px-2 rounded-xl hover:text-amber-500 transition font-bold"
         >
           {/* Phone icon - only visible on mobile */}
           <FaPhone size={20} className="lg:hidden" />
           {/* Number text - only visible on desktop */}
-          <span className="hidden lg:inline">+91 8445561749</span>
+          <span className="hidden lg:inline">Get Started</span>
         </a>
 
         {/* Mobile Hamburger */}
@@ -141,16 +141,7 @@ function Header() {
           </div>
         </nav>
 
-        {/* CTA button inside menu */}
-        <div
-          onClick={() => {
-            navigate("/get-started");
-            setMenuOpen(false);
-          }}
-          className="mt-10 bg-blue-900 text-white font-bold px-5 py-2 rounded-xl cursor-pointer hover:bg-amber-500 transition text-center"
-        >
-          Get Started
-        </div>
+       
       </div>
     </header>
   );
