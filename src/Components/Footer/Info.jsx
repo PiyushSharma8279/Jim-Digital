@@ -9,7 +9,7 @@ function Info() {
       <div className="max-w-[1250px] mx-auto px-6 py-12 
                       grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
-        
+
         <div>
           <h2 className="underline decoration-2 underline-offset-8 mb-4 text-[20px] font-medium">About</h2>
           <p className="leading-relaxed">
@@ -20,7 +20,16 @@ function Info() {
           </p>
           <div className="flex gap-6 py-4">
             <FaInstagram size={22} className="cursor-pointer hover:text-amber-400 transition" />
-            <FaFacebook size={22} className="cursor-pointer hover:text-amber-400 transition" />
+            <a
+              href="https://www.facebook.com/jimdigitalau/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook
+                size={22}
+                className="cursor-pointer hover:text-amber-400 transition"
+              />
+            </a>
             <FaWhatsapp size={22} className="cursor-pointer hover:text-amber-400 transition" />
             <FaLinkedin size={22} className="cursor-pointer hover:text-amber-400 transition" />
           </div>
@@ -53,11 +62,11 @@ function Info() {
         <div>
           <h2 className="underline decoration-2 underline-offset-8 mb-4 text-[20px] font-medium">Useful Links</h2>
           <div className="space-y-2 flex flex-col">
-            <a onClick={()=> navigate('/about')} className="hover:text-amber-400 transition cursor-pointer">Company</a>
-            <a onClick={()=> navigate('/portfolio')} className="hover:text-amber-400 transition cursor-pointer">Portfolio</a>
-            <a onClick={()=> navigate('/blog')} className="hover:text-amber-400 transition cursor-pointer">Blog</a>
-            <a onClick={()=> navigate('/career')} className="hover:text-amber-400 transition cursor-pointer">Career</a>
-            <a onClick={()=> navigate('/contact')} className="hover:text-amber-400 transition cursor-pointer">Contact Us</a>
+            <a onClick={() => navigate('/about')} className="hover:text-amber-400 transition cursor-pointer">Company</a>
+            <a onClick={() => navigate('/portfolio')} className="hover:text-amber-400 transition cursor-pointer">Portfolio</a>
+            <a onClick={() => navigate('/blog')} className="hover:text-amber-400 transition cursor-pointer">Blog</a>
+            <a onClick={() => navigate('/career')} className="hover:text-amber-400 transition cursor-pointer">Career</a>
+            <a onClick={() => navigate('/contact')} className="hover:text-amber-400 transition cursor-pointer">Contact Us</a>
           </div>
         </div>
       </div>

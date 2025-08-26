@@ -17,6 +17,7 @@ import Blog from './Components/UseFullLinks/Blog/Blog'
 import CRM from './Components/UseFullLinks/CRM/CRM'
 import MLM from './Components/UseFullLinks/MLM/MLM'
 import ERP from './Components/UseFullLinks/ERP/ERP'
+import HMS from './Components/UseFullLinks/HMS/HMS'
 
 function App() {
   return (
@@ -39,10 +40,7 @@ function App() {
            <Route path="/product/crm" element={<CRM />} />
            <Route path="/product/mlm" element={<MLM />} />
            <Route path="/product/erp" element={<ERP />} />
-
-
-
-
+           <Route path="/product/hms" element={<HMS />} />
 
 
         </Routes>
