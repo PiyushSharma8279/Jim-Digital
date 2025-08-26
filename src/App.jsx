@@ -14,9 +14,6 @@ import Portfolio from './Components/UseFullLinks/Portfolio/Portfolio'
 import Contact from './Components/UseFullLinks/ContactUs/Contact'
 import Career from './Components/UseFullLinks/Career/Career'
 import Blog from './Components/UseFullLinks/Blog/Blog'
-import FormPage from './Components/Home/Modals/WebDevForm'
-import DesignForm from './Components/Home/Modals/WebDesignForm'
-import Customform from './Components/Home/Modals/Customform'
 import CRM from './Components/UseFullLinks/CRM/CRM'
 import MLM from './Components/UseFullLinks/MLM/MLM'
 import ERP from './Components/UseFullLinks/ERP/ERP'
@@ -39,9 +36,6 @@ function App() {
            <Route path='/contact' element={<Contact/>}/>
            <Route path='/career' element={<Career/>}/>
            <Route path='/blog' element={<Blog/>}/>
-           <Route path="/form/:category" element={<FormPage />} />
-           <Route path="/design/:category" element={<DesignForm />} />
-           <Route path="/custom/:category" element={<Customform />} />
            <Route path="/product/crm" element={<CRM />} />
            <Route path="/product/mlm" element={<MLM />} />
            <Route path="/product/erp" element={<ERP />} />

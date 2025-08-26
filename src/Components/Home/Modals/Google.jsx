@@ -61,16 +61,7 @@ function Google() {
                       </h3>
 
                       <form className="flex flex-col gap-3">
-                        <input
-                          type="text"
-                          placeholder="Your Name*"
-                          className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
-                        />
-                        <input
-                          type="text"
-                          placeholder="Your Business name/ website"
-                          className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
-                        />
+                     
                         <input
                           type="email"
                           placeholder="Your Email*"
@@ -79,6 +70,11 @@ function Google() {
                         <input
                           type="number"
                           placeholder="Enter Your Phone*"
+                          className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
+                        />
+                           <input
+                          type="text"
+                          placeholder="Your website"
                           className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
                         />
 
@@ -90,14 +86,12 @@ function Google() {
                           <option>Get Location Visit</option>
                           <option>Increase Brand Awareness</option>
                         </select>
+                        <input
+                          type="text"
+                          placeholder="what is your Target Location?"
+                          className="border border-gray-700 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
+                        />
 
-                        <select className="border rounded-md text-gray-600 px-3 py-2 focus:outline-none text-sm w-full">
-                          <option>What is your Target Location</option>
-                          <option>Serve customer nationwide</option>
-                          <option>Serve only [city/state]</option>
-                          <option>Specific radius around my business</option>
-
-                        </select>
 
 
                         <select className="border rounded-md text-gray-600 px-3 py-2 focus:outline-none text-sm w-full">
@@ -111,14 +105,7 @@ function Google() {
 
                         </select>
 
-                        <select className="border rounded-md text-gray-600 px-3 py-2 focus:outline-none text-sm w-full">
-                          <option>What is your Timeline starting {activeCategory}</option>
-                          <option>Immediately</option>
-                          <option>Within 1-2 weeks</option>
-                          <option>Within 9 months</option>
-                          <option>Just researching</option>
-
-                        </select>
+                        
                         
 
                         <button

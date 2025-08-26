@@ -51,16 +51,8 @@ function SocialMedia() {
                       </h3>
 
                       <form className="flex flex-col gap-3">
-                        <input
-                          type="text"
-                          placeholder="Your Name*"
-                          className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
-                        />
-                        <input
-                          type="text"
-                          placeholder="Your Business name/ website"
-                          className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
-                        />
+                       
+                        
                         <input
                           type="email"
                           placeholder="Your Email*"
@@ -69,6 +61,11 @@ function SocialMedia() {
                         <input
                           type="number"
                           placeholder="Enter Your Phone*"
+                          className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
+                        />
+                        <input
+                          type="text"
+                          placeholder="Your website"
                           className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
                         />
 
@@ -83,15 +80,13 @@ function SocialMedia() {
                           <option>Grow my followers</option>
 
                         </select>
-                        <select className="border rounded-md text-gray-600 px-3 py-2 focus:outline-none text-sm w-full">
-                          <option>Which Social Media Platform are you intrested in advertising?</option>
-                          <option>Facebook</option>
-                          <option>Instagram</option>
-                          <option>Ticktok</option>
-                          <option>Linkedin</option>
-                          <option>Youtube</option>
+                        <input
+                          type="text"
+                          placeholder="what is your Target Location?"
+                          className="border border-gray-700 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
+                        />
 
-                        </select>
+                       
                         
 
 
@@ -106,16 +101,7 @@ function SocialMedia() {
 
                         </select>
 
-                        <select className="border rounded-md text-gray-600 px-3 py-2 focus:outline-none text-sm w-full">
-                          <option>Do you have Existing marketting assests?</option>
-                          <option>High quality photo</option>
-                          <option>Video footage</option>
-                          <option>Brand Logo</option>
-                          <option>Brand Guidelines documents</option>
-                          <option value="">Ad copy ideas</option>
-
-                        </select>
-
+                        
                         <button
                           type="submit"
                           className="bg-blue-900 text-white cursor-pointer font-semibold rounded-md py-2 transition hover:bg-amber-500"

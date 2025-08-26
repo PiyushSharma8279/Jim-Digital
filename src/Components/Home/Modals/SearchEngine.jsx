@@ -56,16 +56,8 @@ function SearchEngine() {
                       </h3>
 
                       <form className="flex flex-col gap-3">
-                        <input
-                          type="text"
-                          placeholder="Your Name*"
-                          className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
-                        />
-                        <input
-                          type="text"
-                          placeholder="Your Business name/ website"
-                          className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
-                        />
+                       
+                        
                         <input
                           type="email"
                           placeholder="Your Email*"
@@ -76,44 +68,32 @@ function SearchEngine() {
                           placeholder="Enter Your Phone*"
                           className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
                         />
+                        <input
+                          type="text"
+                          placeholder="Your Business website"
+                          className="border border-gray-500 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
+                        />
 
-                        <select className="border rounded-md text-gray-600 px-3 py-2 focus:outline-none text-sm w-full">
-                          <option>what is your Primary market goal</option>
-                          <option>Generate Lead / Quote request</option>
-                          <option>Drive Online sales</option>
-                          <option>Increase Phone calls</option>
-                          <option>Get Location Visit</option>
-                          <option>Increase Brand Awareness</option>
-                        </select>
+                        <input
+                          type="text"
+                          placeholder="what is your Target Location?"
+                          className="border border-gray-700 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
+                        />
+                        <input
+                          type="text"
+                          placeholder="what is your main Competitor?"
+                          className="border border-gray-700 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
+                        />
+                        <input
+                          type="text"
+                          placeholder="How many keywords yo want to work?"
+                          className="border border-gray-700 text-gray-600 rounded-md px-3 py-2 focus:outline-none text-sm w-full"
+                        />
 
-                        <select className="border rounded-md text-gray-600 px-3 py-2 focus:outline-none text-sm w-full">
-                          <option>What is your Target Location</option>
-                          <option>Serve customer nationwide</option>
-                          <option>Serve only [city/state]</option>
-                          <option>Specific radius around my business</option>
-
-                        </select>
+                      
 
 
-                        <select className="border rounded-md text-gray-600 px-3 py-2 focus:outline-none text-sm w-full">
-                          <option>Your Monthly Advertising Budget*</option>
-                          <option>$500</option>
-                          <option>$500-$1000</option>
-                          <option>$1000-$2000</option>
-                          <option>$2000-$3000</option>
-                          <option>$3000-$4000</option>
-                          <option>$4000+</option>
-
-                        </select>
-
-                        <select className="border rounded-md text-gray-600 px-3 py-2 focus:outline-none text-sm w-full">
-                          <option>Do you have GA4 and Search console setup</option>
-                          <option>Yes</option>
-                          <option>No</option>
-                          <option>I Don't Know What is this</option>
-                          
-
-                        </select>
+                       
 
                         <button
                           type="submit"
