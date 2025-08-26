@@ -19,7 +19,13 @@ function Info() {
             enhance their online presence.
           </p>
           <div className="flex gap-6 py-4">
+            <a
+              href="https://www.instagram.com/jim_digital_au/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <FaInstagram size={22} className="cursor-pointer hover:text-amber-400 transition" />
+            </a>
             <a
               href="https://www.facebook.com/jimdigitalau/"
               target="_blank"

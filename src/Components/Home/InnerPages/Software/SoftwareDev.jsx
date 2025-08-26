@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import Header from "../../../Header/Header";
 import Info from "../../../Footer/Info";
 import scrollreveal from "scrollreveal";
+import customsoftware from '../../../../assets/customsoftware.jpg'
+import softwaredev from '../../../../assets/softwaredev.jpg'
+import webdev3 from '../../../../assets/webdev3.jpg'
 
 function SoftwareDev() {
       useEffect(() => {
@@ -76,7 +79,7 @@ function SoftwareDev() {
                 <div className="flex flex-col md:flex-row w-[90%] py-20  gap-10">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/web-dev-2.png"
+                            src={customsoftware}
                             alt="Software-development"
                             className="development"
                         />
@@ -101,7 +104,7 @@ function SoftwareDev() {
                 <div className="flex flex-col md:flex-row-reverse w-[90%] py-20 items-center gap-10">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/web-dev-3.png"
+                            src={softwaredev}
                             alt="Best Software-development Company"
                             className="w-full h-auto themes"
                         />
@@ -137,7 +140,7 @@ function SoftwareDev() {
                 <div className="flex flex-col md:flex-row w-[90%] py-20 items-center gap-10">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/web-dev-4.png"
+                            src={webdev3}
                             alt="Software-development"
                             className="w-full h-auto webP"
                         />

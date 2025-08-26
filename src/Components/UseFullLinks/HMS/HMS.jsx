@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Header from '../../Header/Header';
 import Info from '../../Footer/Info';
+import hms from '../../../assets/hms.jpg'
 
 function HMS() {
     useEffect(() => {
@@ -50,7 +51,7 @@ function HMS() {
 
                 <div className="md:w-1/2">
                     <img
-                        src="https://www.vrwebconsulting.com/assets/images/about-big.jpg"
+                        src={hms}
                         alt="CRM software illustration"
                         className="rounded-lg shadow-md"
                     />

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Header from '../../Header/Header';
 import Info from '../../Footer/Info';
+import crm from '../../../assets/crm.jpg'
 
 function CRM() {
   useEffect(() => {
@@ -65,10 +66,8 @@ function CRM() {
           <p className="text-gray-700 leading-relaxed">
             We develop tailor-made custom CRM for businesses as per client needs. CRM is essential
             for managing customer relationships, with multiple uses depending on business needs.
-            <br /><br />
             CRM can also help manage employee relationships, track performance, monitor sales and
             marketing, manage leads and deals, generate reports, quotes, and much more.
-            <br /><br />
             It helps businesses save time and cost by automating systems. With CRM, you can manage
             a large amount of information seamlessly and use it hassle-free across departments.
           </p>
@@ -77,7 +76,7 @@ function CRM() {
         {/* Right Side - Image */}
         <div className="md:w-1/2">
           <img
-            src="https://www.vrwebconsulting.com/assets/images/about-big.jpg"
+            src={crm}
             alt="CRM software illustration"
             className="rounded-lg shadow-md"
           />

@@ -3,6 +3,10 @@ import React, { useEffect } from "react";
 import Header from "../../../Header/Header";
 import Info from "../../../Footer/Info";
 import scrollreveal from "scrollreveal";
+import customdigital from '../../../../assets/customdigital.jpg'
+import facebookinsta from '../../../../assets/facebookinsta.jpg'
+import webdev3 from '../../../../assets/webdev3.jpg'
+
 
 function Digital() {
     useEffect(() => {
@@ -66,7 +70,7 @@ function Digital() {
                 <div className="flex flex-col md:flex-row w-[90%] py-20  gap-10">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/web-dev-2.png"
+                            src={customdigital}
                             alt="Digital marketting"
                             className="development"
                         />
@@ -91,7 +95,7 @@ function Digital() {
                 <div className="flex flex-col md:flex-row-reverse w-[90%] py-20 items-center gap-10">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/digital-strategy1.gif"
+                            src={facebookinsta}
                             alt="Best Digital marketting Company"
                             className="w-full h-auto themes"
                         />
@@ -125,7 +129,7 @@ function Digital() {
                 <div className="flex flex-col md:flex-row w-[90%] py-20 items-center gap-10">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/web-dev-4.png"
+                            src={webdev3}
                             alt="Digital marketting"
                             className="w-full h-auto webP"
                         />

@@ -3,6 +3,8 @@ import Header from '../../Header/Header'
 import Info from '../../Footer/Info'
 import { useEffect } from 'react';
 import scrollreveal from "scrollreveal";
+import about from '../../../assets/about.jpg'
+import aboutCompany from '../../../assets/aboutCompany.jx.jpg'
 
 function AboutUs() {
     useEffect(() => {
@@ -87,7 +89,7 @@ function AboutUs() {
                 <div className="flex flex-col md:flex-row-reverse w-[90%] py-20  gap-10">
                     <div className="w-full md:w-1/2 ">
                         <img
-                            src="https://godigital99.co.uk/cybetiq/wp-content/uploads/2023/06/vision1.png"
+                            src={about}
                             alt="Web Development"
                             className="development rounded-4xl"
                         />
@@ -113,7 +115,7 @@ function AboutUs() {
                 <div className="flex flex-col md:flex-row w-[90%] py-20  gap-10">
                     <div className="w-full md:w-1/2 ">
                         <img
-                            src="https://godigital99.co.uk/cybetiq/wp-content/uploads/2023/06/photo-1552664730-d307ca884978.png"
+                            src={aboutCompany}
                             alt="Web Development"
                             className="development rounded-4xl"
                         />

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Header from "../../../Header/Header";
 import Info from "../../../Footer/Info";
 import { FaAndroid, FaApple, FaHSquare } from "react-icons/fa";
+import seo from '../../../../assets/seo.jpg'
 
 function SeoDev() {
      useEffect(() => {
@@ -38,7 +39,7 @@ function SeoDev() {
         <div className="flex flex-col md:flex-row w-[90%] py-20 gap-10">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/seo-1.gif"
+              src={seo}
               alt="Web Development"
               className="max-w-full h-auto rounded-lg"
             />

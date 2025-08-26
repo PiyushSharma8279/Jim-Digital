@@ -2,6 +2,10 @@ import React, { useEffect } from "react";
 import Header from "../../../Header/Header";
 import Info from "../../../Footer/Info";
 import scrollreveal from "scrollreveal";
+import webdev1 from '../../../../assets/webdev1.jpg'
+import webdev2 from '../../../../assets/webdev2.jpg'
+import webdev3 from '../../../../assets/webdev3.jpg'
+
 
 function WebsiteDev() {
     useEffect(() => {
@@ -77,7 +81,7 @@ function WebsiteDev() {
                 <div className="flex flex-col md:flex-row w-[90%] py-20  gap-10">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/web-dev-2.png"
+                            src={webdev1}
                             alt="Web Development"
                             className="development"
                         />
@@ -102,7 +106,7 @@ function WebsiteDev() {
                 <div className="flex flex-col md:flex-row-reverse w-[90%] py-20 items-center gap-10">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/web-dev-3.png"
+                            src={webdev2}
                             alt="Best Web Development Company"
                             className="w-full h-auto themes"
                         />
@@ -138,7 +142,7 @@ function WebsiteDev() {
                 <div className="flex flex-col md:flex-row w-[90%] py-20 items-center gap-10">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/web-dev-4.png"
+                            src={webdev3}
                             alt="Web Development"
                             className="w-full h-auto webP"
                         />

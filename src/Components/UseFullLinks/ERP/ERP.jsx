@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Header from '../../Header/Header';
 import Info from '../../Footer/Info';
+import erp from '../../../assets/erp.jpg'
 
 function ERP() {
   useEffect(() => {
@@ -83,7 +84,7 @@ function ERP() {
       
         <div className="md:w-1/2">
           <img
-            src="https://www.vrwebconsulting.com/assets/images/about-big.jpg"
+            src={erp}
             alt="CRM software illustration"
             className="rounded-lg shadow-md"
           />
