@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import logo from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
 import { FaBars, FaTimes, FaPhone } from "react-icons/fa";
 
 function Header() {
+   useEffect(() => {
+          window.scrollTo(0, 0);
+      }, []);
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
   const [productOpen, setProductOpen] = useState(false); // for mobile submenu

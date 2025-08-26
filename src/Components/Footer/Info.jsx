@@ -31,7 +31,13 @@ function Info() {
               />
             </a>
             <FaWhatsapp size={22} className="cursor-pointer hover:text-amber-400 transition" />
+            <a
+              href="https://www.linkedin.com/company/jimdigital/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <FaLinkedin size={22} className="cursor-pointer hover:text-amber-400 transition" />
+            </a>
           </div>
         </div>
 
