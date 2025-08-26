@@ -6,12 +6,10 @@ import webdev1 from '../../../../assets/webdev1.jpg'
 import webdev2 from '../../../../assets/webdev2.jpg'
 import webdev3 from '../../../../assets/webdev3.jpg'
 
-
 function WebsiteDev() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-
 
     useEffect(() => {
         const scroll = scrollreveal({
@@ -19,7 +17,7 @@ function WebsiteDev() {
             duration: 1000,
             distance: '60px',
             scale: 0.85,
-             reset: false, 
+            reset: false,
         });
 
         scroll.reveal('.development', { delay: 400, origin: 'left' });
@@ -28,17 +26,14 @@ function WebsiteDev() {
         scroll.reveal('.themesText', { delay: 400, origin: 'left' });
         scroll.reveal('.webP', { delay: 400, origin: 'left' });
         scroll.reveal('.webPText', { delay: 400, origin: 'right' });
-
-
     }, []);
 
     return (
         <>
             <Header />
 
-
             <main className="pt-20">
-                <div className="text-white bg-[#0b0f28] text-center py-16 px-4">
+                <div className="text-white bg-[#0b0f28] text-center py-10 md:py-16 px-4">
                     <p className="text-3xl md:text-5xl font-medium">Web Development</p>
                     <p className="flex items-center justify-center gap-2 text-sm mt-4">
                         <span className="text-blue-500 cursor-pointer">Home</span>
@@ -48,9 +43,8 @@ function WebsiteDev() {
                 </div>
             </main>
 
-
-            <div className="text-center py-16 px-6">
-                <h2 className="text-2xl md:text-4xl py-4 font-medium">
+            <div className="text-center py-8 md:py-16 px-6">
+                <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
                     Web Development Company in Noida, Delhi | India
                 </h2>
                 <p className="text-gray-700 max-w-3xl mx-auto">
@@ -59,122 +53,83 @@ function WebsiteDev() {
                 </p>
             </div>
 
-
             <div className="text-center px-6">
-                <h2 className="text-2xl md:text-4xl py-4 font-medium">
+                <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
                     Jim-Digital is the Best Website Development Company in India
                 </h2>
                 <p className="text-gray-700 max-w-4xl mx-auto">
                     Talking through the generalised terms, web development holds an
-                    association with the development of a website for the internet.
-                    However, such a task doesn’t hold its importance get affected by its
-                    narrow range of words used to spell it. Starting with the development
-                    of a single static page of plain text holding simplicity to an
-                    unending complex world of social networking sites and web
-                    applications, web development is not an easy service to be rendered.
-                    Best Website Development Company In Noida.
+                    association with the development of a website for the internet...
                 </p>
             </div>
 
-
+            {/* Section 1 */}
             <div className="flex justify-center">
-                <div className="flex flex-col md:flex-row w-[90%] py-20  gap-10">
+                <div className="flex flex-col md:flex-row w-[90%] py-10 md:py-20 gap-6 md:gap-10">
                     <div className="w-full md:w-1/2">
-                        <img
-                            src={webdev1}
-                            alt="Web Development"
-                            className="development"
-                        />
+                        <img src={webdev1} alt="Web Development" className="development" />
                     </div>
                     <div className="w-full md:w-1/2 px-4 md:px-10 text-left devText">
-                        <h2 className="text-2xl md:text-4xl py-4 font-medium">
+                        <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
                             Custom Web Development
                         </h2>
                         <p className="text-gray-700">
-                            We at Cybetiq also offer custom Website Development Services at
-                            affordable price. Our experienced team is willing to develop
-                            custom website on technologies like PHP, Codeigniter, Laravel,
-                            Node.JS, .Net, Python etc. As a Best Web Development company in
-                            Noida we build custom websites in all verticals.
+                            We at Cybetiq also offer custom Website Development Services...
                         </p>
                     </div>
                 </div>
             </div>
 
-
+            {/* Section 2 */}
             <div className="flex justify-center">
-                <div className="flex flex-col md:flex-row-reverse w-[90%] py-20 items-center gap-10">
+                <div className="flex flex-col md:flex-row-reverse w-[90%] py-10 md:py-20 items-center gap-6 md:gap-10">
                     <div className="w-full md:w-1/2">
-                        <img
-                            src={webdev2}
-                            alt="Best Web Development Company"
-                            className="w-full h-auto themes"
-                        />
+                        <img src={webdev2} alt="Best Web Development Company" className="w-full h-auto themes" />
                     </div>
                     <div className="w-full md:w-1/2 px-4 md:px-10 text-left themesText">
-                        <h2 className="text-2xl md:text-4xl py-4 font-medium">
+                        <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
                             Best Website Development Company in Noida
                         </h2>
                         <p className="text-gray-700">
-                            In the challenging world of who to choose, our company being the
-                            Best Website Development Company in Noida has always got something
-                            up its sleeves. It’s not an illusion, rather a transparency in
-                            skills showcased by our able web developers for every task
-                            undertaken.
+                            In the challenging world of who to choose, our company being the Best...
                         </p>
                         <ul className="list-disc list-inside mt-4 space-y-2 text-gray-700">
-                            <li>
-                                Web development, a skill involving association with production
-                                and maintenance of websites.
-                            </li>
-                            <li>
-                                Information architecture - It won’t be wrong to define it as the
-                                structural design of environments having shared information.
-                            </li>
+                            <li>Web development, a skill involving production & maintenance.</li>
+                            <li>Information architecture – the structural design of info.</li>
                             <li>Mobile responsiveness</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-
+            {/* Section 3 */}
             <div className="flex justify-center">
-                <div className="flex flex-col md:flex-row w-[90%] py-20 items-center gap-10">
+                <div className="flex flex-col md:flex-row w-[90%] py-10 md:py-20 items-center gap-6 md:gap-10">
                     <div className="w-full md:w-1/2">
-                        <img
-                            src={webdev3}
-                            alt="Web Development"
-                            className="w-full h-auto webP"
-                        />
+                        <img src={webdev3} alt="Web Development" className="w-full h-auto webP" />
                     </div>
                     <div className="w-full md:w-1/2 px-4 md:px-10 text-left webPText">
-                        <h2 className="text-2xl md:text-4xl py-4 font-medium">
+                        <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
                             Website Development Process
                         </h2>
                         <p className="text-gray-700">
                             When it comes to custom website development, its process is very
-                            important. As a website developer in noida, we first understand
-                            your requirement and then research is our first approach. After
-                            proper research we decide the technology for your website and then
-                            we develop website on that technology. After development, we go
-                            through manual and automation testing before we go live.
+                            important...
                         </p>
                     </div>
                 </div>
             </div>
 
+            {/* Why Choose Section */}
+            <div className="text-white bg-[#0b0f28] text-center py-10 md:py-16 px-6">
+                <p className="text-3xl md:text-5xl font-medium">Why Jim-Digital Solution?</p>
 
-            <div className="text-white bg-[#0b0f28] text-center py-16 px-6">
-                <p className="text-3xl md:text-5xl font-medium">
-                    Why Jim-Digital Solution?
-                </p>
-
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-10 py-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 py-8 md:py-10">
                     {[
                         {
                             img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_beautiful.png",
                             title: "Unique Design",
-                            desc: "We create websites with modern design patterns which are eye-catching and user-friendly.",
+                            desc: "We create websites with modern design patterns...",
                         },
                         {
                             img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_responsive.png",
@@ -188,11 +143,7 @@ function WebsiteDev() {
                         },
                     ].map((card, i) => (
                         <div key={i} className="flex flex-col items-center gap-4 px-4">
-                            <img
-                                src={card.img}
-                                alt={card.title}
-                                className="w-20 h-20 md:w-24 md:h-24 object-contain"
-                            />
+                            <img src={card.img} alt={card.title} className="w-20 h-20 md:w-24 md:h-24 object-contain" />
                             <h2 className="text-lg md:text-xl font-medium">{card.title}</h2>
                             <p className="text-sm text-gray-300">{card.desc}</p>
                         </div>
@@ -200,20 +151,15 @@ function WebsiteDev() {
                 </div>
             </div>
 
-
-            <div className="text-center py-16 px-6">
-                <h2 className="text-2xl md:text-4xl py-4 font-medium">
-                    Industry We Serve
-                </h2>
+            {/* Industry */}
+            <div className="text-center py-8 md:py-16 px-6">
+                <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">Industry We Serve</h2>
                 <p className="max-w-3xl mx-auto text-gray-700">
-                    We have worked across multiple industry verticals over the years and
-                    helped businesses in diverse domains. Industries like Real Estate,
-                    Finance, Government, Travel, Retail, Healthcare and many more.
+                    We have worked across multiple industry verticals...
                 </p>
             </div>
 
-
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 p-6">
                 {[
                     { img: "movie.png", text: "Media Entertainment" },
                     { img: "bags.png", text: "Shopping & Ecommerce" },
@@ -224,39 +170,27 @@ function WebsiteDev() {
                     { img: "books.png", text: "Education & E-Learning" },
                     { img: "football.png", text: "Sports & Recreation" },
                 ].map((item, i) => (
-                    <div
-                        key={i}
-                        className="shadow-xl rounded-xl h-40 flex flex-col justify-center items-center bg-white hover:scale-105 transition-transform"
-                    >
-                        <img
-                            src={`https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/${item.img}`}
-                            alt={item.text}
-                            className="w-12 md:w-16 mb-2"
-                        />
-                        <p className="font-medium text-gray-700 text-center">{item.text}</p>
+                    <div key={i} className="shadow-xl rounded-xl h-36 md:h-40 flex flex-col justify-center items-center bg-white hover:scale-105 transition-transform">
+                        <img src={`https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/${item.img}`} alt={item.text} className="w-10 md:w-16 mb-2" />
+                        <p className="font-medium text-gray-700 text-center text-sm md:text-base">{item.text}</p>
                     </div>
                 ))}
             </div>
 
-
+            {/* Hire Developer */}
             <div className="flex justify-center">
-                <div className="flex flex-col md:flex-row-reverse w-[90%] py-20 items-center gap-10">
+                <div className="flex flex-col md:flex-row-reverse w-[90%] py-10 md:py-20 items-center gap-6 md:gap-10">
                     <div className="w-full md:w-1/2">
-                        <img
-                            src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/developer.png"
-                            alt="Hire Web Developer"
-                            className="w-full h-auto"
-                        />
+                        <img src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/developer.png" alt="Hire Web Developer" className="w-full h-auto" />
                     </div>
                     <div className="w-full md:w-1/2 px-4 md:px-10 text-left">
-                        <h2 className="text-2xl md:text-4xl py-4 font-medium">
+                        <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
                             Do you want to hire the best website developer for your project?
                         </h2>
                         <p className="text-gray-700">
-                            Our website development teams convert your imagination into code
-                            and make your website a lead conversion machine.
+                            Our website development teams convert your imagination into code...
                         </p>
-                        <button className="py-2 px-6 rounded-xl text-white bg-blue-600 mt-5 hover:bg-blue-700">
+                        <button className="py-2 px-6 rounded-xl text-white bg-blue-600 mt-4 md:mt-5 hover:bg-blue-700">
                             Contact Now
                         </button>
                     </div>
