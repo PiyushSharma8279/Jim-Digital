@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaPhone } from "react-icons/fa";
 
 function Header() {
   const navigate = useNavigate();
@@ -26,10 +26,10 @@ function Header() {
   return (
     <header className="fixed top-0 left-0 w-full bg-white z-50 shadow-md">
       <div className="max-w-[1250px] mx-auto flex justify-between items-center px-6 lg:px-20 h-20">
-        
+
         {/* Logo */}
         <div onClick={() => navigate("/")} className="cursor-pointer">
-          <img src={logo} alt="Logo" className="h-12 lg:h-16" />
+          <img src={logo} alt="Logo" className="h-10 sm:h-12 lg:h-16 w-auto" />
         </div>
 
         {/* Desktop Menu */}
@@ -65,10 +65,16 @@ function Header() {
           </div>
         </nav>
 
-        {/* Desktop CTA Button */}
-        <div className="hidden lg:flex items-center bg-blue-900 text-white font-bold px-5 py-2 rounded-xl cursor-pointer hover:bg-amber-500 transition">
-          Get Started
-        </div>
+        {/* CTA: Phone Number (Icon for mobile, number for desktop) */}
+        <a
+          href="tel:+918445561749"
+          className="flex items-center gap-2 text-blue-600 hover:text-amber-500 transition font-semibold"
+        >
+          {/* Phone icon - only visible on mobile */}
+          <FaPhone size={20} className="lg:hidden" />
+          {/* Number text - only visible on desktop */}
+          <span className="hidden lg:inline">+91 8445561749</span>
+        </a>
 
         {/* Mobile Hamburger */}
         <div
