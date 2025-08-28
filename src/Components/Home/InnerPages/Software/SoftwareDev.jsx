@@ -5,6 +5,13 @@ import scrollreveal from "scrollreveal";
 import customsoftware from '../../../../assets/customsoftware.jpg'
 import softwaredev from '../../../../assets/softwaredev.jpg'
 import webdev3 from '../../../../assets/webdev3.jpg'
+import softDev from '../../../../assets/softwaredevfooter.png'
+import unique from '../../../../assets/unique.png'
+import delivery from '../../../../assets/delivery.png'
+import customized from '../../../../assets/customized.png'
+
+
+
 
 function SoftwareDev() {
   useEffect(() => {
@@ -134,19 +141,16 @@ function SoftwareDev() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 py-8 md:py-10">
           {[
             {
-              img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_beautiful.png",
+              img: unique,
               title: "Unique Design",
-
             },
             {
-              img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_responsive.png",
+              img: customized,
               title: "Customized designed",
-
             },
             {
-              img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_effective.png",
+              img: delivery,
               title: "Delivery on Time",
-
             },
           ].map((card, i) => (
             <div key={i} className="flex flex-col items-center gap-4 px-4">
@@ -161,15 +165,15 @@ function SoftwareDev() {
         </div>
       </div>
 
-      
 
-      
+
+
 
       <div className="flex justify-center">
         <div className="flex flex-col md:flex-row-reverse w-[90%]  md:py-20 items-center gap-6 md:gap-10">
           <div className="w-full md:w-1/2">
             <img
-              src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/developer.png"
+              src={softDev}
               alt="Hire Web Developer"
               className="w-full h-auto"
             />
@@ -178,7 +182,7 @@ function SoftwareDev() {
             <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
               Do you want to hire the best website developer for your project?
             </h2>
-            
+
             <a
               href="tel:+61426443970"
               className="inline-block mt-4 text-white bg-orange-500 py-2 px-4 rounded-xl hover:bg-orange-600 transition font-bold"
