@@ -2,10 +2,14 @@ import React, { useEffect } from "react";
 import Header from "../../../Header/Header";
 import Info from "../../../Footer/Info";
 import scrollreveal from "scrollreveal";
+import softDev from '../../../../assets/softwaredevfooter.png'
 
 import webdev1 from "../../../../assets/webdev1.jpg";
 import webdev2 from "../../../../assets/webdev2.jpg";
 import webdev3 from "../../../../assets/webdev3.jpg";
+import unique from '../../../../assets/unique.png'
+import delivery from '../../../../assets/delivery.png'
+import customized from '../../../../assets/customized.png'
 
 function WebsiteDev() {
     useEffect(() => {
@@ -59,7 +63,7 @@ function WebsiteDev() {
             </div>
             <div className="text-center  px-6">
                 <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
-                   Jim-Digital is the Best Website Development Company in Australia
+                    JimDigital is the Best Website Development Company in Australia
                 </h2>
                 <p className="text-gray-700 max-w-3xl mx-auto">
                     In general terms, web development is the process of making a website for the internet...
@@ -81,11 +85,11 @@ function WebsiteDev() {
                             Custom Web Development
                         </h2>
                         <p className="text-gray-700">
-                          Custom web development makes websites and apps from scratch that are one-of-a-kind and fit your needs. It looks at the needs of the business, the experience of the user, and how well it can grow. This process includes strategic planning, custom coding, and thorough testing to make a digital solution that is powerful, safe, and works perfectly.
- 
+                            Custom web development makes websites and apps from scratch that are one-of-a-kind and fit your needs. It looks at the needs of the business, the experience of the user, and how well it can grow. This process includes strategic planning, custom coding, and thorough testing to make a digital solution that is powerful, safe, and works perfectly.
+
                         </p>
                     </div>
-                   
+
                 </div>
             </div>
 
@@ -127,8 +131,8 @@ function WebsiteDev() {
                             Website Development Process
                         </h2>
                         <p className="text-gray-700">
-                           When making a website, you need to plan, design, build, test, and launch it. It starts with setting goals and making sitemaps, then making wireframes and visual designs. After that, developers build the site and test it thoroughly to make sure it works before putting it on a live server for the public to see.
- 
+                            When making a website, you need to plan, design, build, test, and launch it. It starts with setting goals and making sitemaps, then making wireframes and visual designs. After that, developers build the site and test it thoroughly to make sure it works before putting it on a live server for the public to see.
+
                         </p>
                     </div>
                 </div>
@@ -137,21 +141,21 @@ function WebsiteDev() {
             {/* Why Choose */}
             <div className="text-white bg-[#0b0f28] text-center  md:py-16 px-6">
                 <p className="text-3xl md:text-5xl font-medium">
-                    Why Jim-Digital Solution?
+                    Why JimDigital Solution?
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 py-8 md:py-10">
                     {[
                         {
-                            img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_beautiful.png",
+                            img: unique,
                             title: "Unique Design",
                         },
                         {
-                            img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_responsive.png",
-                            title: "Effective Framework",
+                            img: customized,
+                            title: "Customized designed",
                         },
                         {
-                            img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_effective.png",
+                            img: delivery,
                             title: "Delivery on Time",
                         },
                     ].map((card, i) => (
@@ -170,16 +174,16 @@ function WebsiteDev() {
                 </div>
             </div>
 
-            
 
-            
+
+
 
             {/* Hire Developer */}
             <div className="flex justify-center">
                 <div className="flex flex-col md:flex-row-reverse w-[90%]  md:py-20 items-center gap-6 md:gap-10">
                     <div className="w-full md:w-1/2">
                         <img
-                            src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/developer.png"
+                            src={softDev}
                             alt="Hire Web Developer"
                             className="w-full h-auto"
                         />

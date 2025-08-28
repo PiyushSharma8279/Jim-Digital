@@ -5,6 +5,10 @@ import scrollreveal from "scrollreveal";
 import customdigital from "../../../../assets/customdigital.jpg";
 import facebookinsta from "../../../../assets/facebookinsta.jpg";
 import webdev3 from "../../../../assets/webdev3.jpg";
+import softDev from '../../../../assets/softwaredevfooter.png'
+import unique from '../../../../assets/unique.png'
+import delivery from '../../../../assets/delivery.png'
+import customized from '../../../../assets/customized.png'
 
 function Digital() {
   useEffect(() => {
@@ -129,17 +133,15 @@ function Digital() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 py-8 md:py-10">
           {[
             {
-              img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_beautiful.png",
-              title: "Quality Results",
-
+              img: unique,
+              title: "Unique Design",
             },
             {
-              img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_responsive.png",
-              title: "Proffessional Work",
-
+              img: customized,
+              title: "Customized designed",
             },
             {
-              img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_effective.png",
+              img: delivery,
               title: "Delivery on Time",
             },
           ].map((card, i) => (
@@ -163,7 +165,7 @@ function Digital() {
         <div className="flex flex-col md:flex-row-reverse w-[90%] py-10 md:py-20 items-center gap-6 md:gap-10">
           <div className="w-full md:w-1/2">
             <img
-              src="https://cybetiq.com/wp-content/themes/cybetiq-v2/img/developer.png"
+              src={softDev}
               alt="Hire Web Developer"
               className="w-full h-auto"
             />

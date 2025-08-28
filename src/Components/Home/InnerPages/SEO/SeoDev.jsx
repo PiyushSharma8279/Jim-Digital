@@ -3,6 +3,9 @@ import Header from "../../../Header/Header";
 import Info from "../../../Footer/Info";
 import { FaAndroid, FaApple, FaHSquare } from "react-icons/fa";
 import seo from '../../../../assets/seo.jpg'
+import phone from '../../../../assets/phone.png'
+import mail from '../../../../assets/mail.png'
+import video from '../../../../assets/video.png'
 
 function SeoDev() {
      useEffect(() => {
@@ -67,17 +70,17 @@ function SeoDev() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10 py-10">
                     {[
                         {
-                            img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_beautiful.png",
+                            img: phone,
                             title: "Market Analysis & Keyword",
                             
                         },
                         {
-                            img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_responsive.png",
+                            img: mail,
                             title: "Content Development ",
                             
                         },
                         {
-                            img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_effective.png",
+                            img: video,
                             title: "Website Audit & Optimization",
                             
                         },

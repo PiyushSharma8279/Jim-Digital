@@ -3,6 +3,9 @@ import Header from "../../../Header/Header";
 import Info from "../../../Footer/Info";
 import { FaAndroid, FaApple, FaHSquare } from "react-icons/fa";
 import ui from '../../../../assets/ui.jpg'
+import phone from '../../../../assets/phone.png'
+import mail from '../../../../assets/mail.png'
+import video from '../../../../assets/video.png'
 
 function UxDesign() {
   useEffect(() => {
@@ -88,17 +91,17 @@ function UxDesign() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 py-10">
           {[
             {
-              img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_call.png",
+              img: phone,
               title: "Give us a call",
               desc: "+61 426 443 970",
             },
             {
-              img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_mail.png",
+              img: mail,
               title: "Write to us",
               desc: "jimdigital93@gmail.com",
             },
             {
-              img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_skype.png",
+              img: video,
               title: "Video chat with us",
               desc: "Jim",
             },
