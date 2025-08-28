@@ -47,16 +47,10 @@ function Digital() {
       {/* Intro Text */}
       <div className="text-center py-8 md:py-16 px-6">
         <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
-          As a Digital Marketing Company in Noida let us reach your business to
-          the right people digitally!!
+          Affordable Digital Marketing Company in Australia
         </h2>
         <p className="text-gray-700 max-w-3xl mx-auto">
-          In the speeding world of internet, countless applications and websites
-          are designed constantly with a great expense with an interest to earn
-          major profits and business. Either it’s about promoting services,
-          products, events or any kind of business, we follow the latest trends
-          and technique to deploy our business to score great popularity and
-          revenues...
+          In the fast-paced world of the internet, many apps and websites are constantly being made at a high cost in order to make big profits and business. We keep up with the latest trends and techniques to promote our business, whether it's services, products, events, or any other type of business. This helps us get a lot of customers and make a lot of money.
         </p>
       </div>
 
@@ -72,10 +66,10 @@ function Digital() {
           </div>
           <div className="w-full md:w-1/2 px-4 md:px-10 text-left devText">
             <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
-              Custom Digital Marketing
+              Result-Oriented approach
             </h2>
             <p className="text-gray-700">
-              We at Cybetiq also offer custom Website Development Services...
+              Jim Digital is a well-known name in SEO services. They have a lot of experience with technical skills and digital marketing techniques that work for any type of project, no matter how big or small. We use ethical methods to help you get ahead of your competitors.
             </p>
           </div>
         </div>
@@ -93,20 +87,13 @@ function Digital() {
           </div>
           <div className="w-full md:w-1/2 px-4 md:px-10 text-left themesText">
             <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
-              Facebook & Instagram marketing
+              No 1 Social Media Agency in Melbourne Preferred By Brands & Startups
             </h2>
             <p className="text-gray-700">
-              Facebook: This is a prominent tool today as of now Facebook is the
-              leading social media app...
+              Jim Digital are the best Social Media Agency in Melbourne because we have been in business for more than 10 years and have a 99% customer satisfaction rate. One of our specialties is keeping an eye on, improving, and analyzing social media profiles to make content, boost online visibility,
+              and get people to interact with it.
             </p>
-            <ul className="list-disc list-inside mt-4 space-y-2 text-gray-700">
-              <li>Digital marketing involves association with production...</li>
-              <li>
-                Information architecture - It won’t be wrong to define it as the
-                structural design...
-              </li>
-              <li>Mobile responsiveness</li>
-            </ul>
+
           </div>
         </div>
       </div>
@@ -123,11 +110,11 @@ function Digital() {
           </div>
           <div className="w-full md:w-1/2 px-4 md:px-10 text-left webPText">
             <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
-              Website Development Process
+              Profound experts
             </h2>
             <p className="text-gray-700">
-              When it comes to custom website development, its process is very
-              important...
+              We have a team of very knowledgeable and experienced digital marketing experts who know all the best ways to get a website to rank high. We give our clients good information about the latest changes to
+              Google and Search Engine Optimization.
             </p>
           </div>
         </div>
@@ -143,18 +130,17 @@ function Digital() {
           {[
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_beautiful.png",
-              title: "Unique Design",
-              desc: "We create websites with modern design patterns...",
+              title: "Quality Results",
+
             },
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_responsive.png",
-              title: "Effective Framework",
-              desc: "We use frameworks tailored to client requirements.",
+              title: "Proffessional Work",
+
             },
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/web_effective.png",
               title: "Delivery on Time",
-              desc: "We have delivered more than 100 projects on time.",
             },
           ].map((card, i) => (
             <div key={i} className="flex flex-col items-center gap-3 md:gap-4 px-4">
@@ -164,49 +150,13 @@ function Digital() {
                 className="w-16 h-16 md:w-24 md:h-24 object-contain"
               />
               <h2 className="text-lg md:text-xl font-medium">{card.title}</h2>
-              <p className="text-sm text-gray-300">{card.desc}</p>
             </div>
           ))}
         </div>
       </div>
 
-      {/* Industry */}
-      <div className="text-center py-8 md:py-16 px-6">
-        <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
-          Industry We Serve
-        </h2>
-        <p className="max-w-3xl mx-auto text-gray-700">
-          We have worked across multiple industry verticals...
-        </p>
-      </div>
 
-      {/* Industry Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 p-4 md:p-6">
-        {[
-          { img: "movie.png", text: "Media Entertainment" },
-          { img: "bags.png", text: "Shopping & Ecommerce" },
-          { img: "debit-card.png", text: "Banking & Finance" },
-          { img: "fruit.png", text: "Food & Drink" },
-          { img: "heartbeat.png", text: "Health & Fitness" },
-          { img: "destination.png", text: "Travel & Tourism" },
-          { img: "books.png", text: "Education & E-Learning" },
-          { img: "football.png", text: "Sports & Recreation" },
-        ].map((item, i) => (
-          <div
-            key={i}
-            className="shadow-xl rounded-xl h-32 md:h-40 flex flex-col justify-center items-center bg-white hover:scale-105 transition-transform"
-          >
-            <img
-              src={`https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/${item.img}`}
-              alt={item.text}
-              className="w-10 md:w-16 mb-2"
-            />
-            <p className="font-medium text-gray-700 text-center text-sm md:text-base">
-              {item.text}
-            </p>
-          </div>
-        ))}
-      </div>
+
 
       {/* Hire Section */}
       <div className="flex justify-center">
@@ -220,15 +170,14 @@ function Digital() {
           </div>
           <div className="w-full md:w-1/2 px-4 md:px-10 text-left">
             <h2 className="text-2xl md:text-4xl py-2 md:py-4 font-medium">
-              Do you want to hire the best website developer for your project?
+              Do you want to hire the best Digital Marketting for your project?
             </h2>
-            <p className="text-gray-700">
-              Our website development teams convert your imagination into code
-              and make your website a lead conversion machine.
-            </p>
-            <button className="py-2 px-6 rounded-xl text-white bg-blue-600 mt-5 hover:bg-blue-700">
-              Contact Now
-            </button>
+            <a
+              href="tel:+61426443970"
+              className="inline-block mt-4 text-white bg-orange-500 py-2 px-4 rounded-xl hover:bg-orange-600 transition font-bold"
+            >
+              Contact now
+            </a>
           </div>
         </div>
       </div>

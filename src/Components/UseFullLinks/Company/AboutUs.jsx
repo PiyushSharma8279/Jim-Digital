@@ -47,42 +47,16 @@ function AboutUs() {
                     About our company
                 </h2>
                 <p className="text-gray-500  mx-auto py-3">
-                    Jim digital is a Best Website Designing Company in Noida | India. We are a team
-                    of experts with huge experience in top notch web services. In the challenging
-                    world of who to choose, our company has always got something up its sleeves.
-                    It’s not an illusion, rather a transparency in skills showcased by our able web
-                    developers for every task undertaken. Such interdisciplinary skills include web
-                    and mobile app solutions, website design and development, mobile application design
-                    and development, eCommerce solutions, WordPress Website development, Search Engine
-                    Optimization(SEO), Email Marketing, Branding and Marketing, Leads & Advertisement
-                    and Domain and Hosting registration. We aim at being in touch with the up-to date
-                    technologies to render quality services to our clients and to maintain the reputation
-                    that we have attained for numerous years
-                    by satisfying the expectations of thousands of customers around the world.
+                   Jim Digital is the best website design company in Melbourne. We are a group of professionals with a lot of experience in high-quality web services. In a tough world where you have to pick someone, our company always has something up its sleeve. It's not an illusion; our skilled web developers show their skills clearly in every job they do. Web and mobile app solutions, website design and development, mobile application design and development, eCommerce solutions, WordPress website development, search engine optimization (SEO), email marketing, branding and marketing, leads and advertisement, and domain and hosting registration are all examples of interdisciplinary skills. We want to stay up to date with the latest technologies so that we can provide our clients with high-quality services and keep the good name we've built up over the years by meeting the needs of thousands of customers around the world.
+ 
                 </p>
                 <p className='text-gray-500  mx-auto py-2'>
-                    Jim digital is a spirited team of intelligent and tech-savvy developers who are
-                    confident in their work. The leaders of the organization have set a standard
-                    to be followed which makes them stand out from any other organisation.
-                    The services offered might be similar to every other organisation but the
-                    values we follow, the satisfaction and creativity we can render to our
-                    clients differentiates us from others.
+                    Jim Digital is a young group of smart, tech-savvy developers who are sure of their work. The leaders of the organization have set a standard that makes them different from any other organization. The services we offer may be the same as those of other businesses, but the values we hold, the satisfaction we give our clients, and the creativity we bring to the table set us apart.
                 </p>
                 <p className='text-gray-500  mx-auto py-2'>
-                    Jim digital Pvt Ltd can earn a count among the best website designing companies
-                    in Noida. We are proud to have had an outstanding track record of our
-                    services and quality sustainability. The company has been motivated by
-                    the present clients and a broad base of thousands of satisfied customers
-                    to expand the service area and provide complete business posting services.
-                    We offer all-around comprehensive services to digitize or build your
-                    business. Our company is well known among the recognised and reliable
-                    customers for the services we render. Commencing with website design,
-                    web hosting and domain registration, our company scales miles when it
-                    comes to marketing. Marketing on social media, advertising on facebook
-                    and development of wordpress website has been quite an easy task after
-                    Jim digital came into limelight.
+                   Jim Digital is one of the best website design companies in Australia. We are proud of the great track record our services and quality sustainability have. The company has been driven to grow its service area and offer full business posting services by its current clients and a large number of happy customers. We offer a full range of services to help you digitize or grow your business. Our company is well-known among reliable and well-known customers for the work we do. Our company offers a wide range of marketing services, starting with website design, web hosting, and domain registration. After Jim Digital became well-known, marketing on social media, putting ads on Facebook, and building a WordPress website have all been very easy tasks.
                 </p>
-                <p className='text-gray-500  mx-auto py-2'>Jim digital helps unleash the good and the better in your website to turn it into the best. <span className=' font-bold'> Best Website Designing Company in Noida | India</span></p>
+                <p className='text-gray-500  mx-auto py-2'>Jim digital helps your website reach its full potential and become the best it can be. Best Website Designing Company in Melbourne | Australia</p>
 
             </div>
             <div className="flex  justify-center">
@@ -99,14 +73,8 @@ function AboutUs() {
                             Vision Behind & Values Beneath
                         </h2>
                         <p className="text-gray-700">
-                           Our vision drives upon rendering the best service with top notch quality where we be 
-                           updated to the crossroads of impeccable quality of service and technology-oriented 
-                           progressiveness. Our central moto is to help businesses grow at all levels and dimensions. 
-                           The vision is refined to maximize the quantum of impact of digital transformation on the
-                            Indian IT industry. The ultimate aim is to bring in all the services required by a business 
-                            over the Internet in the most customer-centric manner. We understand that a complex vision
-                             might lead to dissolved effort.
-                            Our day to day zeal and the enthusiasm is keeping us on the toes to learn and serve the industry to the best of our abilities.
+                           Our goal is to provide the best service with the highest quality, and we want to stay at the cutting edge of both service quality and technology. Our main goal is to help businesses grow in every way and on every level. The vision is being fine-tuned to get the most out of the digital transformation's effect on the Indian IT industry. The end goal is to get all the services a business needs online in a way that puts the customer first. We know that a complicated vision can make people stop working together. Our daily passion and excitement keep us on our toes to learn and do our best for the industry.
+ 
                         </p>
                     </div>
                 </div>
@@ -125,7 +93,7 @@ function AboutUs() {
                             Company Services
                         </h2>
                         <p className="text-gray-700">
-                           We at Cybetiq provide Website Designing, Website Development, Custom Softwares, Mobile Application,
+                           We at Jim-Digital provide Website Designing, Website Development, Custom Softwares, Mobile Application,
                             SEO and Digital Marketing services at resonable price.
                         </p>
                     </div>
@@ -139,12 +107,12 @@ function AboutUs() {
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_call.png",
               title: "Give us a call",
-              desc: "+91 9800942901",
+              desc: "+61 426 443 970",
             },
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_mail.png",
               title: "Write to us",
-              desc: "jim-digital@gmail.com",
+              desc: "jimdigital93@gmail.com",
             },
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_skype.png",

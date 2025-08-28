@@ -46,7 +46,7 @@ function MLM() {
         {/* Hero Section */}
         <div className="text-white bg-[#0b0f28] text-center py-16 px-4">
           <h1 className="text-3xl md:text-5xl font-semibold leading-snug">
-            Best MLM Software Development Services Company in India
+            Best MLM Software Development Services Company in Australia
           </h1>
           <p className="flex items-center justify-center gap-2 text-sm mt-4">
             <span className="text-blue-500 cursor-pointer hover:underline">Home</span>
@@ -64,14 +64,8 @@ function MLM() {
            Multi Level Marketing
           </h2>
           <p className="text-gray-700 leading-relaxed">
-           VR consulting provide fully integrated MLM software’s for your business. MLM is refers to 
-           a sales strategy that different companies uses to sell their product or service to customer. 
-           Here members at all level benefited by joining MLM business and good way to promote business 
-           in market. We build smart multilevel marketing (MLM) software that suit to your requirement.
-            Our MLM has verity of plans like Binary Plan, Matrix Plan and Board Plan etc. 
-            All our software’s are made with utmost care by paying detail attention to is 
-            user-friendliness interface, and easy-to-comprehend structure 
-           that help businesses to achieve sales and revenue goals within time on network marketing.
+          Jim Digital makes MLM software that works with all of your business's systems. MLM is a way for different businesses to sell their goods or services to customers. Members at all levels benefited from joining an MLM business, which is a great way to market a business. We make smart multilevel marketing (MLM) software that meets your needs. There are many plans for our MLM, such as the Binary Plan, the Matrix Plan, and the Board Plan. We put a lot of care into making all of our software, paying close attention to how easy it is to use and how easy it is to understand. This helps businesses reach their sales and revenue goals on time in network marketing.
+ 
           </p>
         </div>
 
@@ -87,7 +81,7 @@ function MLM() {
         </div>
       </section>
          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center">
-           Best MLM Software Development Services Company in India
+           Best MLM Software Development Services Company in Australia
           </h2>
        <div className="max-w-6xl mx-auto px-6 py-12">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

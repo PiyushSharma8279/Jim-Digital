@@ -29,8 +29,7 @@ function SeoDev() {
 
       <div className="text-center py-16 px-6">
         <h2 className="text-2xl md:text-4xl py-4 font-medium">
-          Best Seo Development Company in Noida, Delhi | India -
-          Jimdigital.com
+          Best Seo Development Company in Melbourne
         </h2>
       </div>
 
@@ -46,25 +45,13 @@ function SeoDev() {
           </div>
           <div className="w-full md:w-1/2 px-4 md:px-10 text-left">
             <p className="text-[17px] font-normal text-gray-500">
-              As a best <span className=" font-medium">SEO Services Company in Noida</span> we believe that your website is incomplete
-               without Search Engine Optimization (SEO). The principle of SEO revolves around 
-               the process of providing a greater deal of visibility to the users for a particular website. 
-               The greater the number of visitors to a website, the greater number of times the website appears on the 
-               search results page. To an affirmative consequence, these visitors can subsequently play the role of customers.
-                The Best SEO Company in Noida, none other than the reputed Cybetiq Company avails
-               you with best contents that will help you raise the head out for better online traffic.
+             We are the best SEO Services Company in Melbourne, and we think that your website isn't complete without Search Engine Optimization (SEO). The main idea behind SEO is to make a website more visible to users. The more people who visit a website, the more often it will show up on the search results page. In a good way, these visitors can later become customers. Jim Digital Company is the best SEO company in Melbourne.
+              They offer you the best content that will help you get more online traffic.
             </p>
 
             <p className="text-[17px] font-normal text-gray-500 pt-4">
-              As the Best <span className=" font-medium">SEO Services Company in Noida</span>, our job is not only to 
-              provide the best content but to optimize the best rank for your business too.
-               The crisp content keeps the audience engaged and informed. This is the way to
-                optimize the rank and compile all your desires in terms of words and to showcase
-                 the best performance where your business can flow well. Streamline your overall
-                  terms with better contents to make your presence and compel the user to click on your
-                   page by ranking yourself in first few results with Cybetiq since we are the Best SEO 
-                   Company in Noida.
-               Looking for SEO Services Company in Noida? Then Contact us Now
+              As the best SEO services company in Melbourne, it's our job to not only give you the best content but also to help your business get the best rank. The clear content keeps the audience interested and up to date. This is the best way to improve your rank and put all of your wants into words so that you can show off your best work and make your business run smoothly. With Jim Digital, the Best SEO Company in Australia, you can improve your overall terms and make your presence felt. This will make people want to click on your page by putting you in the top few results.
+               Need an SEO Services Company in Melbourne? Then get in touch with us now.
             </p>
 
           </div>
@@ -109,17 +96,16 @@ function SeoDev() {
             </div>
              <div className="text-center py-16 px-6">
                 <h2 className="text-2xl md:text-4xl py-4 font-medium">
-                    What makes Cybetiq, Best SEO Agency In Noida?
+                    What makes Jim Digital, Best SEO Agency In Melbourne?
                 </h2>
                 <p className=" mx-auto text-gray-700 py-2 text-[17px] font-medium">
-                 We implement technical strategies and research to find out the exact keywords
-                  that would make your site appear in the first few results in the google search
+                We use research and technical methods to find the exact keywords that will get your site to show up in the top few results on Google.
                 </p>
                  <p className=" mx-auto text-gray-700 py-2 text-[17px] font-medium">
-                 We not only stick to your company’s scope but we also go through your competitor’s performance to make sure you lead the way
+                 We not only stay within the limits of your business, but we also look at how well your competitors are doing to make sure you stay ahead.
                 </p>
                  <p className=" mx-auto text-gray-700 py-2 text-[17px] font-medium">
-                We make sure that both your on page and off page optimization is taken care of
+                We make sure that both your on-page and off-page optimization are done.
                 </p>
             </div>
 
@@ -135,12 +121,12 @@ function SeoDev() {
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_call.png",
               title: "Give us a call",
-              desc: "+91 9800942901",
+              desc: "+61 426 443 970",
             },
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_mail.png",
               title: "Write to us",
-              desc: "jim-digital@gmail.com",
+              desc: "jimdigital93@gmail.com",
             },
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_skype.png",

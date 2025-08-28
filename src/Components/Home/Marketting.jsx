@@ -9,14 +9,9 @@ function Marketting() {
                 <div className=' text-center mb-2'>
                     <h2 className=' text-[32px] px-2'>Turning Ideas into Success Stories.</h2>
                     <p className='  text-[15px] font-medium px-5'>
-                        At Jim-Digital, we do not just build websites and software—we engineer
-                        digital solutions tailored to your business goals. Whether you need a
-                        powerful web platform, a
+                       We don't just make websites and software at Jim-Digital. We also design digital solutions that are specific to your business goals. Our in-house team can give you scalable, secure, and future-ready technology for a powerful web platform, a mobile app, or an automated business system.
                     </p>
-                    <p className=' font-medium text-[15px] px-5 text-center'>
-                        mobile app, or an automated business system, our in-house team delivers
-                        scalable, secure, and future-ready technology.
-                    </p>
+                    
                 </div>
 
                 
@@ -36,10 +31,7 @@ function Marketting() {
                                     Marketing That Delivers Traffic, Leads, and Growth
                                 </h2>
                                 <p className="text-[16px] md:text-[24px] font-medium mb-2 hidden lg:block">
-                                    Jim-Digital is more than a marketing agency—we’re your digital
-                                    growth partner. We design integrated marketing strategies that
-                                    drive brand awareness, generate leads, and increase sales using
-                                    proven data-driven techniques.
+                                    Jim-Digital is more than just a marketing agency; we're your partner in growing your business online. Using tried-and-true data-driven methods, we create integrated marketing plans that raise brand awareness, bring in leads, and boost sales.
                                 </p>
                             </div>
 

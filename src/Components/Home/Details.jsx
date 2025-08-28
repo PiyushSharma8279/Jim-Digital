@@ -23,12 +23,7 @@ function Details() {
                 A full-service digital marketing agency and web production company
               </h2>
               <p className="text-sm md:text-base leading-relaxed">
-                CCM is a full-service digital marketing agency that can run
-                multi-channel campaigns to reach your audience at every touch
-                point. However, if you are only looking for a single-channel
-                campaign, we can help you achieve your goals. If you need
-                direction, we can help you develop a digital strategy that grows
-                your business.
+                Jim Digital is a full-service digital marketing agency that can run campaigns across multiple channels to reach your audience at every point of contact. But if you only want a campaign on one channel, we can help you reach your goals. We can help you come up with a digital strategy that will help your business grow if you need help.
               </p>
               <button className="border border-red-400 text-red-400 px-4 py-2 rounded-2xl mt-2 hover:bg-orange-400 hover:text-white font-medium">
                 Buy Discovery

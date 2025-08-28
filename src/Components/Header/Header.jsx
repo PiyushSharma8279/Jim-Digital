@@ -70,7 +70,7 @@ function Header() {
 
         {/* CTA: Phone Number (Icon for mobile, number for desktop) */}
         <a
-          href="tel:+918445561749"
+          href="tel:+61426443970"
           className="flex items-center gap-2 text-white bg-orange-500 py-1 px-2 rounded-xl hover:text-amber-500 transition font-bold"
         >
           {/* Phone icon - only visible on mobile */}

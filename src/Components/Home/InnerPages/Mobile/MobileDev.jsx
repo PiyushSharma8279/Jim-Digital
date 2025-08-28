@@ -29,8 +29,7 @@ function MobileDev() {
       
       <div className="text-center py-16 px-6">
         <h2 className="text-2xl md:text-4xl py-4 font-medium">
-          Best Mobile App Development Company in Noida, Delhi | India -
-          Jimdigital.com
+          Best Mobile App Development Company in Melbourne | Australia
         </h2>
       </div>
 
@@ -46,28 +45,21 @@ function MobileDev() {
           </div>
           <div className="w-full md:w-1/2 px-4 md:px-10 text-left">
             <p className="text-[17px] font-normal text-gray-500">
-              As a Best Mobile App Development Company In Noida, Delhi | India
-              we believe that mobile apps have made it easier to access any
-              services like a business, shopping, interactions, mailing, instant
-              messaging, latest information and much more on your fingertips...
+             We are the Best Mobile App Development Company in Melbourne, Australia, and we think that mobile apps have made it easier to get to services like business, shopping, chatting, mailing, instant messaging, getting the latest news, and more.
             </p>
 
             <h2 className="text-2xl md:text-3xl py-4 font-medium text-blue-900">
               Strong Branding of a mobile app.
             </h2>
             <p className="text-[17px] font-normal text-gray-500">
-              We all know that a powerful brand name with tremendously design
-              brand logo is an initially important element of mobile
-              development...
+             We all know that a strong brand name and a well-designed brand logo are two of the most important things to think about when making a mobile app.
             </p>
 
             <h2 className="text-2xl md:text-3xl py-4 font-medium text-blue-900">
               Featuring a convenient app.
             </h2>
             <p className="text-[17px] font-normal text-gray-500">
-              A convenient app with simple functioning will encourage a variety
-              of users to reach the mobile app and resist them to use it for a
-              long time...
+             A useful app that is easy to use will attract a wide range of users to the mobile app and keep them using it for a long time.
             </p>
           </div>
         </div>
@@ -75,12 +67,11 @@ function MobileDev() {
 
       
       <div className="text-white bg-[#0b0f28] text-center py-20 px-4">
-        <p className="text-3xl md:text-5xl font-medium">
-          Dynamic Customization of mobile app
+        <p className="text-2xl md:text-5xl font-medium">
+         Customized Mobile App Development
         </p>
         <p className="mt-4 text-sm md:text-lg max-w-4xl mx-auto text-gray-300">
-          The more dynamically an app developer customizes the app the more it
-          will reduce contentions and increase effectiveness...
+        The more flexible an app developer makes the app, the less likely it is to cause problems and the more useful it will be.
         </p>
       </div>
 
@@ -101,9 +92,8 @@ function MobileDev() {
               Android App Development
             </h2>
             <p className="text-gray-500 text-[17px] text-center">
-              As an Android App Development Company in Noida we believe that
-              Android is one of the popular mobile platforms being used in
-              recent times...
+            To make custom Android apps, you need to know a lot and be very skilled. We turn business ideas into successful mobile apps by using the latest technologies and
+             our years of experience in Android app development services in Melbourne.
             </p>
           </div>
 
@@ -117,8 +107,8 @@ function MobileDev() {
               iOS App Development
             </h2>
             <p className="text-gray-500 text-[17px] text-center">
-              It is an undebatable fact that iOS is another primary mobile
-              platform which you need to cover for the maximum outreach...
+            As a mobile app development company, we offer full iOS app development services in Melbourne, from coming up with ideas to putting them into action. This will help your business grow and make more money. To give you strong iOS app solutions, we look at the app's mobility, 
+            needs, and return on investment.
             </p>
           </div>
 
@@ -148,12 +138,12 @@ function MobileDev() {
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_call.png",
               title: "Give us a call",
-              desc: "+91 9800942901",
+              desc: "+61 426 443 970",
             },
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_mail.png",
               title: "Write to us",
-              desc: "jim-digital@gmail.com",
+              desc: "jimdigital93@gmail.com",
             },
             {
               img: "https://cybetiq.com/wp-content/themes/cybetiq-v2/img/ic/talk_skype.png",

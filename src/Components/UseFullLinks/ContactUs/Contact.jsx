@@ -24,12 +24,9 @@ function Contact() {
             <div className="flex flex-col md:flex-row justify-center items-start gap-10 p-8 max-w-5xl mx-auto">
 
                 <div className="w-full md:w-1/2 bg-gray-50 p-6 rounded-2xl shadow-md">
-                    <h2 className="text-xl font-semibold mb-3">Noida</h2>
+                    <h2 className="text-xl font-semibold mb-3">Address</h2>
                     <p className="text-gray-600 mb-6 leading-relaxed">
-                        D-9, D-Block, Sector-3, <br />
-                        Near Sec-16 Metro Station, <br />
-                        Noida, Landmark: Workshala Spaces, <br />
-                        Uttar Pradesh, 201301
+                        Melbourne,Australia
                     </p>
 
                     <h2 className="text-xl font-semibold mb-2">Contact</h2>

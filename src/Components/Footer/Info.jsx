@@ -13,10 +13,7 @@ function Info() {
         <div>
           <h2 className="underline decoration-2 underline-offset-8 mb-4 text-[20px] font-medium">About</h2>
           <p className="leading-relaxed">
-            Jim-digital is a forward-thinking IT company specializing in web
-            development, software design, and digital marketing. Our expert
-            team creates customized solutions to help businesses thrive and
-            enhance their online presence.
+            Jim-digital is an IT company that looks to the future and focuses on web development, software design, and digital marketing. Our team of experts makes custom solutions to help businesses grow and improve their online presence.
           </p>
           <div className="flex gap-6 py-4">
             <a
@@ -24,7 +21,7 @@ function Info() {
               target="_blank"
               rel="noopener noreferrer"
             >
-            <FaInstagram size={22} className="cursor-pointer hover:text-amber-400 transition" />
+              <FaInstagram size={22} className="cursor-pointer hover:text-amber-400 transition" />
             </a>
             <a
               href="https://www.facebook.com/jimdigitalau/"
@@ -37,7 +34,7 @@ function Info() {
               />
             </a>
             <a
-              href="https://wa.me/918445561749"
+              href="https://wa.me/61426443970"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,8 +59,9 @@ function Info() {
           <div className="space-y-2 flex flex-col">
             <span onClick={() => navigate("/website-dev")} className="cursor-pointer hover:text-amber-400 transition">Web Development</span>
             <span onClick={() => navigate("/mobile-dev")} className="cursor-pointer hover:text-amber-400 transition">Mobile App Development</span>
+            <span onClick={() => navigate("/ux-dev")} className="cursor-pointer hover:text-amber-400 transition">Ux-Design</span>
+
             <span onClick={() => navigate("/software-dev")} className="cursor-pointer hover:text-amber-400 transition">Software Development</span>
-            <span onClick={() => navigate("/wordpress-dev")} className="cursor-pointer hover:text-amber-400 transition">WordPress Development</span>
             <span onClick={() => navigate("/digital-dev")} className="cursor-pointer hover:text-amber-400 transition">Digital Marketing</span>
             <span onClick={() => navigate("/seo-dev")} className="cursor-pointer hover:text-amber-400 transition">SEO Service</span>
           </div>
@@ -73,7 +71,7 @@ function Info() {
         <div>
           <h2 className="underline decoration-2 underline-offset-8 mb-4 text-[20px] font-medium">Get In Touch</h2>
           <p className="font-semibold">Location</p>
-          <p className="mb-3">Australia Based. Results Driven.</p>
+          <p className="mb-3">Melbourne, Australia Based. </p>
           <p className="font-semibold">Contact</p>
           <p>Phone: +61 426 443 970</p>
           <p>Mail Us: info@jim-digital.com</p>

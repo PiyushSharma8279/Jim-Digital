@@ -9,17 +9,12 @@ function Footer() {
 
             <div className="text-center my-10 px-4">
                 <h2 className="text-[24px] md:text-[32px] font-semibold">
-                    Turning Ideas into Success Stories.
+                    Best Website Designing Company in Melbourne, Australia – Jim Digital
                 </h2>
                 <p className="text-[15px] font-medium mt-2">
-                    At Jim-Digital, we don’t just build websites and software—we engineer
-                    digital solutions tailored to your business goals. Whether you need a
-                    powerful web platform, a
+                    We can help you improve your online presence. We'll make sure your website is exactly what you need, whether you want a responsive design or a professional layout. Contact us today so we can start making something great for your business.
                 </p>
-                <p className="text-[15px] font-medium">
-                    mobile app, or an automated business system, our in-house team delivers
-                    scalable, secure, and future-ready technology.
-                </p>
+               
             </div>
 
             <section

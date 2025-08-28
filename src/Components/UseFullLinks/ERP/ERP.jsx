@@ -71,11 +71,7 @@ function ERP() {
           Enterprise resource planning (ERP)
           </h2>
           <p className="text-gray-700 leading-relaxed">
-           we understand the critical role that an efficient and integrated ERP system plays
-            in the success of modern businesses. With our comprehensive ERP solution, we empower
-             organizations to streamline their operations, enhance productivity, and achieve 
-             sustainable growth. Our innovative and customizable 
-           ERP software is designed to meet the unique needs of businesses across industries.
+          We know how important it is for modern businesses to have an integrated and efficient ERP system. Our all-in-one ERP solution gives businesses the tools they need to make their operations more efficient, boost productivity, and grow in a way that lasts. Our ERP software is flexible and cutting-edge, so it can meet the needs of businesses in any field.
           </p>
         </div>
 

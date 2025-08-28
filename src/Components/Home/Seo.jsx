@@ -33,7 +33,7 @@ function Seo() {
             <p className=" text-xl font-normal">
               WooCommerce
             </p>
-            <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
+           
             
           </div>
         </div>
@@ -58,7 +58,7 @@ function Seo() {
             <p className=" text-xl font-normal">
               Shopify Website
             </p>
-            <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
+           
             
           </div>
         </div>
@@ -83,7 +83,7 @@ function Seo() {
             <p className=" text-xl font-normal">
               Domain
             </p>
-            <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
+           
             
           </div>
         </div>
@@ -107,9 +107,9 @@ function Seo() {
 
           <div className="absolute inset-0 bg-white/90 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 rounded-xl text-center">
             <p className=" text-xl font-normal">
-              WooCommerce
+              AWS Management
             </p>
-            <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
+           
             
           </div>
         </div>
@@ -132,9 +132,9 @@ function Seo() {
 
           <div className="absolute inset-0 bg-white/90 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 rounded-xl text-center">
             <p className=" text-xl font-normal">
-              Shopify Website
+             Portal Development
             </p>
-            <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
+           
             
           </div>
         </div>
@@ -157,9 +157,9 @@ function Seo() {
 
           <div className="absolute inset-0 bg-white/90 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 rounded-xl text-center">
             <p className=" text-xl font-normal">
-              Domain
+              Website Maintenance
             </p>
-            <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
+           
             
           </div>
         </div>
@@ -180,9 +180,9 @@ function Seo() {
 
           <div className="absolute inset-0 bg-white/90 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 rounded-xl text-center">
             <p className=" text-xl font-normal">
-              Domain
+              WordPress Website
             </p>
-            <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
+           
             
           </div>
         </div>
@@ -209,7 +209,7 @@ function Seo() {
             <p className=" text-xl font-normal">
               Hosting
             </p>
-            <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
+           
             
           </div>
         </div>
@@ -234,7 +234,7 @@ function Seo() {
             <p className=" text-xl font-normal">
               Business email
             </p>
-            <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
+           
             
           </div>
         </div>
@@ -259,7 +259,7 @@ function Seo() {
             <p className=" text-xl font-normal">
               SSL Certificate
             </p>
-            <p >Launch a powerful online store with WooCommerce. We set up user-friendly, secure, and fully customizable shopping platforms for all business types.</p>
+           
             
           </div>
         </div>
