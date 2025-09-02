@@ -57,13 +57,13 @@ function Info() {
         <div>
           <h2 className="underline decoration-2 underline-offset-8 mb-4 text-[20px] font-medium">Our Services</h2>
           <div className="space-y-2 flex flex-col">
-            <span onClick={() => navigate("/website-dev")} className="cursor-pointer hover:text-amber-400 transition">Web Development</span>
-            <span onClick={() => navigate("/mobile-dev")} className="cursor-pointer hover:text-amber-400 transition">Mobile App Development</span>
-            <span onClick={() => navigate("/ux-dev")} className="cursor-pointer hover:text-amber-400 transition">Ux-Design</span>
+            <span onClick={() => navigate("/website-development-company-in-melbourne")} className="cursor-pointer hover:text-amber-400 transition">Web Development</span>
+            <span onClick={() => navigate("/mobile-app-development-company-in-melbourne")} className="cursor-pointer hover:text-amber-400 transition">Mobile App Development</span>
+            <span onClick={() => navigate("/ux-ui-design-company-in-melbourne")} className="cursor-pointer hover:text-amber-400 transition">Ux-Design</span>
 
-            <span onClick={() => navigate("/software-dev")} className="cursor-pointer hover:text-amber-400 transition">Software Development</span>
-            <span onClick={() => navigate("/digital-dev")} className="cursor-pointer hover:text-amber-400 transition">Digital Marketing</span>
-            <span onClick={() => navigate("/seo-dev")} className="cursor-pointer hover:text-amber-400 transition">SEO Service</span>
+            <span onClick={() => navigate("/software-development-company-in-melbourne")} className="cursor-pointer hover:text-amber-400 transition">Software Development</span>
+            <span onClick={() => navigate("/digital-marketing-company-in-melbourne")} className="cursor-pointer hover:text-amber-400 transition">Digital Marketing</span>
+            <span onClick={() => navigate("/seo-company-in-melbourne")} className="cursor-pointer hover:text-amber-400 transition">SEO Service</span>
           </div>
         </div>
 
@@ -81,11 +81,11 @@ function Info() {
         <div>
           <h2 className="underline decoration-2 underline-offset-8 mb-4 text-[20px] font-medium">Useful Links</h2>
           <div className="space-y-2 flex flex-col">
-            <a onClick={() => navigate('/about')} className="hover:text-amber-400 transition cursor-pointer">Company</a>
-            <a onClick={() => navigate('/portfolio')} className="hover:text-amber-400 transition cursor-pointer">Portfolio</a>
-            <a onClick={() => navigate('/blog')} className="hover:text-amber-400 transition cursor-pointer">Blog</a>
+            <a onClick={() => navigate('/about-us')} className="hover:text-amber-400 transition cursor-pointer">Company</a>
+            <a onClick={() => navigate('/our-portfolio')} className="hover:text-amber-400 transition cursor-pointer">Portfolio</a>
+            <a onClick={() => navigate('/our-blog')} className="hover:text-amber-400 transition cursor-pointer">Blog</a>
             <a onClick={() => navigate('/career')} className="hover:text-amber-400 transition cursor-pointer">Career</a>
-            <a onClick={() => navigate('/contact')} className="hover:text-amber-400 transition cursor-pointer">Contact Us</a>
+            <a onClick={() => navigate('/contact-us')} className="hover:text-amber-400 transition cursor-pointer">Contact Us</a>
           </div>
         </div>
       </div>

@@ -46,7 +46,7 @@ function MLM() {
         {/* Hero Section */}
         <div className="text-white bg-[#0b0f28] text-center py-16 px-4">
           <h1 className="text-3xl md:text-5xl font-semibold leading-snug">
-            Best MLM Software Development Services Company in Australia
+            Multi Level Marketting(MLM)
           </h1>
           <p className="flex items-center justify-center gap-2 text-sm mt-4">
             <span className="text-blue-500 cursor-pointer hover:underline">Home</span>
@@ -81,7 +81,7 @@ function MLM() {
         </div>
       </section>
          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center">
-           Best MLM Software Development Services Company in Australia
+          Multi Level Marketting(MLM)
           </h2>
        <div className="max-w-6xl mx-auto px-6 py-12">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

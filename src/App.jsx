@@ -16,6 +16,8 @@ import CRM from './Components/UseFullLinks/CRM/CRM'
 import MLM from './Components/UseFullLinks/MLM/MLM'
 import ERP from './Components/UseFullLinks/ERP/ERP'
 import HMS from './Components/UseFullLinks/HMS/HMS'
+import InnerCategories from './Components/UseFullLinks/Portfolio/InnerCategories'
+
 
 function App() {
   return (
@@ -23,21 +25,22 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' Component={Home} />
-           <Route path="/website-dev" element={<WebsiteDev/>}/>
-           <Route path='/mobile-dev' element={<MobileDev/>} />
-           <Route path='/software-dev' element={<SoftwareDev/>}/>
-           <Route path='/ux-dev' element={<UxDesign/>}/>
-           <Route path='/digital-dev' element={<Digital/>}/>
-           <Route path='/seo-dev' element={<SeoDev/>}/>
-           <Route path='/about' element={<AboutUs/>}/>
-           <Route path='/portfolio' element={<Portfolio/>}/>
-           <Route path='/contact' element={<Contact/>}/>
+           <Route path="/website-development-company-in-melbourne" element={<WebsiteDev/>}/>
+           <Route path='/mobile-app-development-company-in-melbourne' element={<MobileDev/>} />
+           <Route path='/software-development-company-in-melbourne' element={<SoftwareDev/>}/>
+           <Route path='/ux-ui-design-company-in-melbourne' element={<UxDesign/>}/>
+           <Route path='/digital-marketing-company-in-melbourne' element={<Digital/>}/>
+           <Route path='/seo-company-in-melbourne' element={<SeoDev/>}/>
+           <Route path='/about-us' element={<AboutUs/>}/>
+           <Route path='/our-portfolio' element={<Portfolio/>}/>
+          <Route path="/innercategories/:category" element={<InnerCategories />} />
+           <Route path='/contact-us' element={<Contact/>}/>
            <Route path='/career' element={<Career/>}/>
-           <Route path='/blog' element={<Blog/>}/>
-           <Route path="/product/crm" element={<CRM />} />
-           <Route path="/product/mlm" element={<MLM />} />
-           <Route path="/product/erp" element={<ERP />} />
-           <Route path="/product/hms" element={<HMS />} />
+           <Route path='/our-blog' element={<Blog/>}/>
+           <Route path="/crm-software-development-company-in-melbourne" element={<CRM />} />
+           <Route path="/mlm-software-development-company-in-melbourne" element={<MLM />} />
+           <Route path="/erp-software-development-company-in-melbourne" element={<ERP />} />
+           <Route path="/hms-software-development-company-in-melbourne" element={<HMS />} />
 
 
         </Routes>

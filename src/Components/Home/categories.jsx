@@ -23,31 +23,31 @@ function Categories() {
           
           <div className="grid grid-cols-2 max-md:grid-cols-1 gap-4 md:gap-6 text-center font-medium my-8">
             <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white"
-               onClick={()=> navigate("/software-dev")}>
+               onClick={()=> navigate("/software-development-company-in-melbourne")}>
               <p>Software</p>
               <p>Development</p>
             </div>
-            <div onClick={()=> navigate("/ux-dev")} className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white">
+            <div onClick={()=> navigate("/ux-ui-design-company-in-melbourne")} className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white">
               <p>UX</p>
               <p>Design</p>
             </div>
             <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white"
-              onClick={()=> navigate("/mobile-dev")} >
+              onClick={()=> navigate("/mobile-app-development-company-in-melbourne")} >
               <p>Mobile</p>
               <p>App</p>
             </div>
             <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white"
-             onClick={() => navigate("/website-dev")} >
+             onClick={() => navigate("/website-development-company-in-melbourne")} >
               <p>Web</p>
               <p>Development</p>
             </div>
             <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white"
-            onClick={()=> navigate('/seo-dev')}>
+            onClick={()=> navigate('/seo-company-in-melbourne')}>
               <p>SEO</p>
               <p>Service</p>
             </div>
             <div className="p-6 rounded-lg shadow transform transition cursor-pointer duration-300 hover:scale-90 bg-white"
-              onClick={() => navigate("/digital-dev")}>
+              onClick={() => navigate("/digital-marketing-company-in-melbourne")}>
               <p>Digital</p>
               <p>Marketing</p>
             </div>

@@ -46,7 +46,7 @@ function CRM() {
         {/* Hero Section */}
         <div className="text-white bg-[#0b0f28] text-center py-16 px-4">
           <h1 className="text-3xl md:text-5xl font-semibold leading-snug">
-            CRM Software Development Services Company in Australia
+            Customer Relationship Management(CRM)
           </h1>
           <p className="flex items-center justify-center gap-2 text-sm mt-4">
             <span className="text-blue-500 cursor-pointer hover:underline">Home</span>
@@ -61,7 +61,7 @@ function CRM() {
         {/* Left Side - Text */}
         <div className="md:w-1/2 space-y-6">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-            CRM Software Development Services Company in Australia
+           Customer Relationship Management(CRM)
           </h2>
           <p className="text-gray-700 leading-relaxed">
             We make custom CRM systems for businesses that fit their needs. CRM is important for keeping track of customer relationships, and it can be used in many ways depending on the needs of the business. CRM can also help you keep track of your employees, keep an eye on sales and marketing, manage leads and deals, make reports, quotes, and a lot more. Automating systems helps businesses save time and money. You can easily manage a lot of information with CRM and share it between departments without any problems.

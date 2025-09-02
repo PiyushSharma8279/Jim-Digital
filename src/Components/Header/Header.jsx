@@ -12,18 +12,18 @@ function Header() {
   const [productOpen, setProductOpen] = useState(false); // for mobile submenu
 
   const categories = [
-    { name: "About Us", path: "/about" },
-    { name: "Portfolio", path: "/portfolio" },
-    { name: "Blog", path: "/blog" },
-    { name: "Contact Us", path: "/contact" },
+    { name: "About Us", path: "/about-us" },
+    { name: "Portfolio", path: "/our-portfolio" },
+    { name: "Blog", path: "/our-blog" },
+    { name: "Contact Us", path: "/contact-us" },
   ];
 
   // Subcategories for "Our Product"
   const productCategories = [
-    { name: "CRM", path: "/product/crm" },
-    { name: "MLM", path: "/product/mlm" },
-    { name: "ERP", path: "/product/erp" },
-    { name: "HMS", path: "/product/hms" },
+    { name: "CRM", path: "/crm-software-development-company-in-melbourne" },
+    { name: "MLM", path: "/mlm-software-development-company-in-melbourne" },
+    { name: "ERP", path: "/erp-software-development-company-in-melbourne" },
+    { name: "HMS", path: "/hms-software-development-company-in-melbourne" },
   ];
 
   return (

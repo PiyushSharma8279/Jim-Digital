@@ -1,19 +1,19 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 import { useEffect } from 'react'
 import Header from '../../Header/Header'
 import Info from '../../Footer/Info'
-import backup from '../../../assets/backup.png'
-import zomento from '../../../assets/zomento.png'
-import dazzle from '../../../assets/dazzle.png'
-import taxi from '../../../assets/taxi.png'
-import rent from '../../../assets/rent.png'
-import bluesaphire from '../../../assets/bluesaphire.png'
+
+import wordpress from '../../../assets/wordPress.jpeg'
+import shopify from '../../../assets/shopifyoption.webp'
+import laravel from '../../../assets/larawel.png'
 
 function Portfolio() {
-     useEffect(() => {
-            window.scrollTo(0, 0);
-        }, []);
-    
+    const navigate = useNavigate()
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <Header />
@@ -27,83 +27,48 @@ function Portfolio() {
                     </p>
                 </div>
             </main>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
-                <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center">
+
+             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
+                <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer"
+                onClick={()=> navigate('/innercategories/wordpress')}>
                     <img
-                        src={backup}
+                        src={wordpress}
                         alt="Backup"
-                        className="w-full h-48 object-cover"
+                        className="w-full h-48 object-cover "
                     />
                     <div className=' p-2'>
-                        <h2 className="text-lg font-semibold mt-3">Backup</h2>
-                    <p className="text-gray-600 text-sm">Australian Based Stafing company</p>
+                        <h2 className="text-lg font-semibold mt-3">Wordpress</h2>
                     </div>
-                    
+
                 </div>
 
-                <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center ">
+                <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer"
+                onClick={()=> navigate('/innercategories/shopify')}>
                     <img
-                        src={zomento}
+                        src={shopify}
                         alt="Zomento"
                         className="w-full h-48 object-cover"
                     />
                     <div className='p-2'>
-                        <h2 className="text-lg font-semibold mt-3">Zomento</h2>
-                    <p className="text-gray-600 text-sm">Australian based E-Commerce comapny</p>
+                        <h2 className="text-lg font-semibold mt-3">Shopify</h2>
                     </div>
                 </div>
 
-                <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center ">
+                <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer "
+                onClick={()=> navigate('/innercategories/laravel')}>
                     <img
-                        src={dazzle}
+                        src={laravel}
                         alt="Dazzle"
                         className="w-full h-48 object-cover"
                     />
                     <div className=' p-2'>
-                        <h2 className="text-lg font-semibold mt-3">Dazzle</h2>
-                    <p className="text-gray-600 text-sm">Australia based Beauty Product Company</p>
-                    </div>
-                    </div>
-            </div>
+                        <h2 className="text-lg font-semibold mt-3">Laravel</h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
-                <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center">
-                    <img
-                        src={taxi}
-                        alt="Taxi"
-                        className="w-full h-48 object-cover"
-                    />
-                    <div className=' p-2'>
-                        <h2 className="text-lg font-semibold mt-3">Taxi</h2>
-                    <p className="text-gray-600 text-sm">Australian Based Taxi company</p>
-                    </div>
-                    
-                </div>
-
-                <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center ">
-                    <img
-                        src={rent}
-                        alt="Rent"
-                        className="w-full h-48 object-cover"
-                    />
-                    <div className='p-2'>
-                        <h2 className="text-lg font-semibold mt-3">Rent a man</h2>
-                    <p className="text-gray-600 text-sm">Australian based Job Post comapny</p>
                     </div>
                 </div>
-
-                <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center ">
-                    <img
-                        src={bluesaphire}
-                        alt="BlueSaphire"
-                        className="w-full h-48 object-cover"
-                    />
-                    <div className=' p-2'>
-                        <h2 className="text-lg font-semibold mt-3">Blue Saphire</h2>
-                    <p className="text-gray-600 text-sm">Australia based Real Estate Company</p>
-                    </div>
-                    </div>
             </div>
+            
+            
 
 
             <Info />
