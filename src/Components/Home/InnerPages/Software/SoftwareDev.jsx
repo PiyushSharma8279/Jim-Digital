@@ -9,18 +9,27 @@ import softDev from '../../../../assets/softwaredevfooter.png'
 import unique from '../../../../assets/unique.png'
 import delivery from '../../../../assets/delivery.png'
 import customized from '../../../../assets/customized.png'
+import useSEO from "../../../../hooks/useSeo";
 
 
 
 
 function SoftwareDev() {
+  useSEO({
+    title: "Software Development Company in Melbourne, Australia | Jim Digital",
+    description:
+      "Discover a leading software development company delivering tailored, scalable, and reliable solutions to grow your business with ease",
+    url:"https://www.jim-digital.com/software-development-company-in-melbourne",
+  });
+
+
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   useEffect(() => {
     const scroll = scrollreveal({
-      reset: true,
       duration: 1000,
       distance: '60px',
       scale: 0.85,

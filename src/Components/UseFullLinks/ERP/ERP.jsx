@@ -2,11 +2,19 @@ import React, { useEffect } from 'react';
 import Header from '../../Header/Header';
 import Info from '../../Footer/Info';
 import erp from '../../../assets/erp.jpg'
+import useSEO from '../../../hooks/useSeo';
 
 function ERP() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  useSEO({
+    title: "ERP Development Melbourne | ERP Development Near Me | Jim Digital",
+    description:
+      "Get expert ERP development in Melbourne. We build tailored ERP solutions to streamline operations, improve productivity, and drive business growth.",
+    url: "https://www.jim-digital.com/erp-software-development-company-in-melbourne",
+  });
 
   const items = [
     {

@@ -6,8 +6,19 @@ import ui from '../../../../assets/ui.jpg'
 import phone from '../../../../assets/phone.png'
 import mail from '../../../../assets/mail.png'
 import video from '../../../../assets/video.png'
+import useSEO from "../../../../hooks/useSeo";
+
 
 function UxDesign() {
+  useSEO({
+      title: "Professional UI UX Design Company in Melbourne, Australia | Jim Digital",
+      description:
+        "Work with a top UI UX design company in Melbourne. We craft engaging, user-friendly digital experiences to help your brand stand out and grow.",
+      url:"https://www.jim-digital.com/ux-ui-design-company-in-melbourne",
+    });
+
+
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

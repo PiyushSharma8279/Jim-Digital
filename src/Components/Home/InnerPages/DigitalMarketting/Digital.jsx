@@ -9,15 +9,25 @@ import softDev from '../../../../assets/softwaredevfooter.png'
 import unique from '../../../../assets/unique.png'
 import delivery from '../../../../assets/delivery.png'
 import customized from '../../../../assets/customized.png'
+import useSEO from "../../../../hooks/useSeo";
+
 
 function Digital() {
+
+   useSEO({
+                  title: "Marketing Company in Australia | Digital Marketing Near Me | Jim Digital",
+                  description:
+                    ":Partner with Australia’s top digital marketing company. We craft strategies to boost visibility, attract customers, and drive sustainable business growth.",
+                  url:": https://www.jim-digital.com/digital-marketing-company-in-melbourne",
+                });
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   useEffect(() => {
     const scroll = scrollreveal({
-      reset: true,
+
       duration: 1000,
       distance: "60px",
       scale: 0.85,

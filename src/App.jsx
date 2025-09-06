@@ -33,7 +33,7 @@ function App() {
            <Route path='/seo-company-in-melbourne' element={<SeoDev/>}/>
            <Route path='/about-us' element={<AboutUs/>}/>
            <Route path='/our-portfolio' element={<Portfolio/>}/>
-          <Route path="/innercategories/:category" element={<InnerCategories />} />
+          <Route path="/portfolio/:category" element={<InnerCategories />} />
            <Route path='/contact-us' element={<Contact/>}/>
            <Route path='/career' element={<Career/>}/>
            <Route path='/our-blog' element={<Blog/>}/>

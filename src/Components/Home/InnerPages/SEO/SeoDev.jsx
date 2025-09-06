@@ -6,8 +6,19 @@ import seo from '../../../../assets/seo.jpg'
 import phone from '../../../../assets/phone.png'
 import mail from '../../../../assets/mail.png'
 import video from '../../../../assets/video.png'
+import useSEO from "../../../../hooks/useSeo";
 
 function SeoDev() {
+    
+             useSEO({
+                title: "SEO Agency Melbourne | SEO Services Australia | SEO Company Near Me | Jim Digital",
+                description:
+                  "Boost your online visibility with a trusted SEO agency in Melbourne. We deliver tailored SEO strategies that attract traffic, leads, and long-term growth.",
+                url:"https://www.jim-digital.com/seo-company-in-melbourne",
+              });
+
+
+
      useEffect(() => {
          window.scrollTo(0, 0);
        }, []);

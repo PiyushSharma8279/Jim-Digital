@@ -106,7 +106,7 @@ function Marketting() {
 
                                     <button
                                         type="submit"
-                                        className="bg-blue-900 text-white font-semibold rounded-md py-2 transition hover:bg-amber-500"
+                                        className="bg-blue-900 cursor-pointer text-white font-semibold rounded-md py-2 transition hover:bg-amber-500"
                                     >
                                         Submit
                                     </button>

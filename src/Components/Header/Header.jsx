@@ -70,13 +70,13 @@ function Header() {
 
         {/* CTA: Phone Number (Icon for mobile, number for desktop) */}
         <a
-          href="tel:+61426443970"
+          href="tel:+919870703015"
           className="flex items-center gap-2 text-white bg-orange-500 py-1 px-2 rounded-xl hover:text-amber-500 transition font-bold"
         >
           {/* Phone icon - only visible on mobile */}
           <FaPhone size={20} className="lg:hidden" />
           {/* Number text - only visible on desktop */}
-          <span className="hidden lg:inline">Get Started</span>
+          <span className="hidden lg:inline">Contact Us</span>
         </a>
 
         {/* Mobile Hamburger */}

@@ -17,10 +17,12 @@ import powerq from "../../../assets/powerq.png";
 import vbr from "../../../assets/vbr.png";
 import sydneyHome from "../../../assets/sydneyHome.png"
 import buckitos from "../../../assets/buckitos.png"
+import useSEO from "../../../hooks/useSeo";
 
 
 // Data grouped by categories
 const categoriesData = {
+  
   wordpress: [
     { img: enjoy, title: "Enjoy Alpha", desc: "U.S based Adult Product Company" },
     { img: panther, title: "Panther", desc: "U.S. based Import Export Company" },
@@ -28,6 +30,7 @@ const categoriesData = {
     { img: vcat, title: "VCat", desc: "U.S. based Import Export Company" },
     { img: precious, title: "Precious", desc: "U.S. based  Company" },
     { img: network, title: "Network", desc: "U.S. based  Company" },
+    
   ],
   shopify: [
     { img: zomento, title: "Zomento", desc: "Australian based E-Commerce company" },
@@ -50,6 +53,12 @@ const categoriesData = {
 function InnerCategories() {
   const { category } = useParams(); // dynamic param from URL
   const items = categoriesData[category] || [];
+       useSEO({
+      title: `Our ${category} Development Portfolio | Jim Digital`,
+      description:
+        `Look Our ${category} Development Portfolio – Jim Digital`,
+      url: `https://www.jim-digital.com/portfolio/${category}`,
+    });
 
   return (
     <>

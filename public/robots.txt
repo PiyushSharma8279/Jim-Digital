@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /wp-admin
+Disallow: /terms-conditions
+Disallow: /privacy-policy
+Disallow: /thank-you
+Disallow: /career
+
+Sitemap: https://www.jim-digital.com/sitemap.xml

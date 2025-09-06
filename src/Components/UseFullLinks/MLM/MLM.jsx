@@ -2,8 +2,16 @@ import React, { useEffect } from 'react';
 import Header from '../../Header/Header';
 import Info from '../../Footer/Info';
 import mlm from '../../../assets/mlm.jpg'
+import useSEO from '../../../hooks/useSeo';
 
 function MLM() {
+
+  useSEO({
+    title: "MLM Development Melbourne | MLM Development Near Me |Jim Digital",
+    description:
+      "Looking for MLM development in Melbourne? We create secure, scalable, and customized MLM software to help your business grow with ease.",
+    url: "https://www.jim-digital.com/mlm-software-development-company-in-melbourne",
+  });
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -61,17 +69,17 @@ function MLM() {
         {/* Left Side - Text */}
         <div className="md:w-1/2 space-y-6">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-           Multi Level Marketing
+            Multi Level Marketing
           </h2>
           <p className="text-gray-700 leading-relaxed">
-          Jim Digital makes MLM software that works with all of your business's systems. MLM is a way for different businesses to sell their goods or services to customers. Members at all levels benefited from joining an MLM business, which is a great way to market a business. We make smart multilevel marketing (MLM) software that meets your needs. There are many plans for our MLM, such as the Binary Plan, the Matrix Plan, and the Board Plan. We put a lot of care into making all of our software, paying close attention to how easy it is to use and how easy it is to understand. This helps businesses reach their sales and revenue goals on time in network marketing.
- 
+            Jim Digital makes MLM software that works with all of your business's systems. MLM is a way for different businesses to sell their goods or services to customers. Members at all levels benefited from joining an MLM business, which is a great way to market a business. We make smart multilevel marketing (MLM) software that meets your needs. There are many plans for our MLM, such as the Binary Plan, the Matrix Plan, and the Board Plan. We put a lot of care into making all of our software, paying close attention to how easy it is to use and how easy it is to understand. This helps businesses reach their sales and revenue goals on time in network marketing.
+
           </p>
         </div>
 
         {/* Right Side - Image */}
 
-      
+
         <div className="md:w-1/2">
           <img
             src={mlm}
@@ -80,28 +88,28 @@ function MLM() {
           />
         </div>
       </section>
-         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center">
-          Multi Level Marketting(MLM)
-          </h2>
-       <div className="max-w-6xl mx-auto px-6 py-12">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {items.map((item, index) => (
-          <div
-            key={index}
-            className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-4 hover:shadow-xl transition"
-          >
-            <img
-              src={item.img}
-              alt={item.label}
-              className="w-full h-48 object-cover rounded-md"
-            />
-            <p className="mt-4  text-[18px] font-bold px-5 py-2 rounded-lg  ">
-              {item.label}
-            </p>
-          </div>
-        ))}
+      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center">
+        Multi Level Marketting(MLM)
+      </h2>
+      <div className="max-w-6xl mx-auto px-6 py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          {items.map((item, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-4 hover:shadow-xl transition"
+            >
+              <img
+                src={item.img}
+                alt={item.label}
+                className="w-full h-48 object-cover rounded-md"
+              />
+              <p className="mt-4  text-[18px] font-bold px-5 py-2 rounded-lg  ">
+                {item.label}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
 
       <Info />
     </>

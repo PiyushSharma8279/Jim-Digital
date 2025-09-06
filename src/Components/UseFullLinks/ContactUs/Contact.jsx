@@ -2,11 +2,18 @@ import React from 'react'
 import { useEffect } from 'react';
 import Header from '../../Header/Header'
 import Info from '../../Footer/Info'
+import useSEO from '../../../hooks/useSeo';
 
 function Contact() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+         useSEO({
+        title: "Contact Us | Jim Digital",
+        description:
+          "Check Our Contact Us Details – Jim Digital",
+        url: "https://www.jim-digital.com/contact-us",
+      });
     return (
         <>
             <Header />

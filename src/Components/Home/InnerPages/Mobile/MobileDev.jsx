@@ -6,9 +6,18 @@ import mobile from '../../../../assets/mobile.jpg'
 import phone from '../../../../assets/phone.png'
 import mail from '../../../../assets/mail.png'
 import video from '../../../../assets/video.png'
+import useSEO from "../../../../hooks/useSeo";
 
 
 function MobileDev() {
+     useSEO({
+          title: "Best Mobile App Development Agency in Melbourne, Australia | Jim Digital",
+          description:
+            "Partner with Melbourne’s trusted mobile app development company. We build high-performing, user-friendly apps that help businesses grow and engage customers.",
+          url: ":https://www.jim-digital.com/mobile-app-development-company-in-melbourne",
+        });
+
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

@@ -143,7 +143,7 @@ function AutoSlider() {
       </div>
 
       <div className=" text-center text-xl lg:text-3xl font-medium py-6 bg-gray-200">
-        Still have questions? Call <span className=" font-bold text-blue-900 cursor-pointer">+61 426 443 970</span> for answers
+        Still have questions? Call <span className=" font-bold text-blue-900 cursor-pointer">+91 98 70 70 30 15</span> for answers
       </div>
 
     </>

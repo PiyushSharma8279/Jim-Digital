@@ -7,12 +7,20 @@ import Info from '../../Footer/Info'
 import wordpress from '../../../assets/wordPress.jpeg'
 import shopify from '../../../assets/shopifyoption.webp'
 import laravel from '../../../assets/larawel.png'
+import useSEO from '../../../hooks/useSeo';
 
 function Portfolio() {
     const navigate = useNavigate()
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+      useSEO({
+        title: "Our Portfolio | Jim Digital",
+        description:
+          "Look Our Company Portfolio – Jim Digital",
+        url: "https://www.jim-digital.com/our-portfolio",
+      });
 
     return (
         <>
@@ -30,7 +38,7 @@ function Portfolio() {
 
              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6">
                 <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer"
-                onClick={()=> navigate('/innercategories/wordpress')}>
+                onClick={()=> navigate('/portfolio/wordpress')}>
                     <img
                         src={wordpress}
                         alt="Backup"
@@ -43,7 +51,7 @@ function Portfolio() {
                 </div>
 
                 <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer"
-                onClick={()=> navigate('/innercategories/shopify')}>
+                onClick={()=> navigate('/portfolio/shopify')}>
                     <img
                         src={shopify}
                         alt="Zomento"
@@ -55,7 +63,7 @@ function Portfolio() {
                 </div>
 
                 <div className="bg-white shadow-lg rounded-2xl overflow-hidden text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer "
-                onClick={()=> navigate('/innercategories/laravel')}>
+                onClick={()=> navigate('/portfolio/laravel')}>
                     <img
                         src={laravel}
                         alt="Dazzle"

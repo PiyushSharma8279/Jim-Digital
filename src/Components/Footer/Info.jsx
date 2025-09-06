@@ -34,7 +34,7 @@ function Info() {
               />
             </a>
             <a
-              href="https://wa.me/61426443970"
+              href="https://wa.me/919013563458"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -71,10 +71,11 @@ function Info() {
         <div>
           <h2 className="underline decoration-2 underline-offset-8 mb-4 text-[20px] font-medium">Get In Touch</h2>
           <p className="font-semibold">Location</p>
-          <p className="mb-3">Melbourne, Australia Based. </p>
+          <p className="mb-3">vill- Doymi </p>
+          <p>Hapur 245101</p>
           <p className="font-semibold">Contact</p>
-          <p>Phone: +61 426 443 970</p>
-          <p>Mail Us: info@jim-digital.com</p>
+          <p>Phone: +91 98 70 70 30 15</p>
+          <p>Mail Us: panditsunny.sharma96@gmail.com</p>
         </div>
 
         {/* Useful Links */}

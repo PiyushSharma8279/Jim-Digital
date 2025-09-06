@@ -5,11 +5,18 @@ import { useEffect } from 'react';
 import scrollreveal from "scrollreveal";
 import about from '../../../assets/about.jpg'
 import aboutCompany from '../../../assets/aboutCompany.jx.jpg'
+import useSEO from '../../../hooks/useSeo';
 
 function AboutUs() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+      useSEO({
+    title: "About Us | Jim Digital",
+    description:
+      "Read About the Jim Digital Company",
+    url: "https://www.jim-digital.com/about-us",
+  });
 
      useEffect(() => {
             const scroll = scrollreveal({

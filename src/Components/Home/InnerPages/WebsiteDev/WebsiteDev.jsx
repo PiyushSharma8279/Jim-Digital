@@ -10,8 +10,17 @@ import webdev3 from "../../../../assets/webdev3.jpg";
 import unique from '../../../../assets/unique.png'
 import delivery from '../../../../assets/delivery.png'
 import customized from '../../../../assets/customized.png'
+import useSEO from "../../../../hooks/useSeo";
 
 function WebsiteDev() {
+         useSEO({
+            title: "Website Development Melbourne | Website Development Near Me | Jim Digital",
+            description:
+              "Looking for a reliable web development company in Melbourne? We build fast, modern, and user-friendly websites to help your business grow.",
+            url:"https://www.jim-digital.com/website-development-company-in-melbourne",
+          });
+
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);

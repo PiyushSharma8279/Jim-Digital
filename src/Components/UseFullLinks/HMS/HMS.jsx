@@ -2,12 +2,18 @@ import React, { useEffect } from 'react';
 import Header from '../../Header/Header';
 import Info from '../../Footer/Info';
 import hms from '../../../assets/hms.jpg'
+import useSEO from '../../../hooks/useSeo';
 
 function HMS() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-
+  useSEO({
+    title: "HMS Development Melbourne | HMS Development Near Me | Jim Digital",
+    description:
+      "Need HMS development in Melbourne? We deliver secure, custom hospital management software to streamline operations and enhance patient care.",
+    url: "https://www.jim-digital.com/hms-software-development-company-in-melbourne",
+  });
     
 
     return (
