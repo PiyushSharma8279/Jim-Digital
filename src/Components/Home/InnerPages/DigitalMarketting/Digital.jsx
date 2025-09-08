@@ -15,7 +15,7 @@ import useSEO from "../../../../hooks/useSeo";
 function Digital() {
 
    useSEO({
-                  title: "Marketing Company in Australia | Digital Marketing Near Me | Jim Digital",
+                  title: "Digital Marketing Company in Australia | Digital Marketing Near Me | Jim Digital",
                   description:
                     ":Partner with Australia’s top digital marketing company. We craft strategies to boost visibility, attract customers, and drive sustainable business growth.",
                   url:": https://www.jim-digital.com/digital-marketing-company-in-melbourne",

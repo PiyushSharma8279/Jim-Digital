@@ -71,8 +71,8 @@ function Info() {
         <div>
           <h2 className="underline decoration-2 underline-offset-8 mb-4 text-[20px] font-medium">Get In Touch</h2>
           <p className="font-semibold">Location</p>
-          <p className="mb-3">vill- Doymi </p>
-          <p>Hapur 245101</p>
+          <p>vill- Doymi </p>
+          <p className="mb-3">Hapur 245101</p>
           <p className="font-semibold">Contact</p>
           <p>Phone: +91 98 70 70 30 15</p>
           <p>Mail Us: panditsunny.sharma96@gmail.com</p>

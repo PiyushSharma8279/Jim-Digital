@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Header from "../../../Header/Header";
 import Info from "../../../Footer/Info";
-import { FaAndroid, FaApple, FaHSquare } from "react-icons/fa";
 import seo from '../../../../assets/seo.jpg'
 import phone from '../../../../assets/phone.png'
 import mail from '../../../../assets/mail.png'

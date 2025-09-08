@@ -50,7 +50,7 @@ function AutoSlider() {
               
               <p className="text-sm mt-2">"We loved working with this agency! They were creative, reliable, and always kept us updated. The final design is elegant,
                  easy to navigate, and helps us showcase our services effectively."</p>
-                <h2 className="text-xl font-bold">— Priya Nair, Director of GreenLeaf Interiors</h2>
+                <h2 className="text-xl font-bold">— Priya Nair</h2>
               <div className=" flex justify-center mt-2">
                 <div className="flex gap-1">
                   <FaStar color="orange" />
@@ -68,7 +68,7 @@ function AutoSlider() {
             <div className=" border border-gray-300 p-6 rounded-xl  text-center">
               <p className="text-sm mt-2">"The team completely transformed our old website into a modern, professional platform. The design is clean, responsive, and perfectly matches our brand identity.
                  We’ve seen a huge improvement in customer engagement since launch."</p>
-                <h2 className="text-xl font-bold">— Anjali Mehta, CEO of TechSphere Solutions</h2>
+                <h2 className="text-xl font-bold">— Anjali Mehta</h2>
                 <div className=" flex justify-center mt-2">
                 <div className="flex gap-1">
                   <FaStar color="orange" />
@@ -87,7 +87,7 @@ function AutoSlider() {
              
               <p className="text-sm mt-2">"I was impressed by how quickly the designers understood our requirements. They delivered a website that not only looks stunning but
                  also loads super fast. Great communication throughout the project!"</p>
-                 <h2 className="text-xl font-bold">— Sneha Kapoor, Owner of StyleNest Boutique</h2>
+                 <h2 className="text-xl font-bold">— Sneha Kapoor</h2>
                 <div className=" flex justify-center mt-2">
                 <div className="flex gap-1">
                   <FaStar color="orange" />
